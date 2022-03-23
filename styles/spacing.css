@@ -1,0 +1,19 @@
+.spacing.double {
+	height: 5.8rem;
+}
+
+.spacing.standard {
+	height: 2.9rem;
+}
+
+.spacing.medium {
+	height: 1.4rem;
+}
+
+.spacing.small {
+	height: 0.7rem;
+}
+
+.spacing.micro {
+	height: 0.3rem;
+}
