@@ -9,3 +9,23 @@ export default function Home() {
     
   )
 }
+
+var contentful = require('contentful');
+
+var client = contentful.createClient({
+  space: 'bbnwmy46z4ku',
+  accessToken: 'uCVPokgGtO-kV2BDByUyicv9afdIvEH9X_lnqOtSt-M',
+});
+
+let nyhet = {}
+
+client.getEntry('6SS9tqw5qZJ7viCvsY1RpB').then(function (entry) {
+  // logs the entry metadata
+  console.log(entry.sys);
+
+  // logs the field with ID title
+  console.log(entry.fields);
+  nyhet = entry.fields[1]
+
+  console.log(nyhet)
+});
