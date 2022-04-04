@@ -1,31 +1,47 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { createClient } from 'contentful' 
+import NewsPost from '../components/NewsPost'
 
-
-export default function Home() {
+export default function Home({news}) {
   return (
-    <div className='test'>brf magelungen</div>
+    <>
+        <Head>
+        <title>HSB Brf Magelungen</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+         </Head>
+
+        <div className='home-container'>
+
+          <div className='hero-img-wrapper'>
+          <Image src='/../public/hero.jpg' layout='fill' className='hero-img'/>
+          </div>
+        
+         </div>
+
+
+        <div>
+        {news.map(newsPost => {
+          return <NewsPost newsPost={newsPost} />
+        })}
+      </div>
+    </>
     
   )
 }
 
-var contentful = require('contentful');
+export async function getStaticProps() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY
+  });
 
-var client = contentful.createClient({
-  space: 'bbnwmy46z4ku',
-  accessToken: 'uCVPokgGtO-kV2BDByUyicv9afdIvEH9X_lnqOtSt-M',
-});
+  const res = await client.getEntries({content_type: 'nyhet'})
 
-let nyhet = {}
-
-client.getEntry('6SS9tqw5qZJ7viCvsY1RpB').then(function (entry) {
-  // logs the entry metadata
-  console.log(entry.sys);
-
-  // logs the field with ID title
-  console.log(entry.fields);
-  nyhet = entry.fields[1]
-
-  console.log(nyhet)
-});
+  return {
+    props: {
+      news: res.items
+    },
+  }
+}

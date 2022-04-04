@@ -7,8 +7,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Poppins;
+  color: #003366;
 }
 
 a {
@@ -20,6 +20,103 @@ a {
   box-sizing: border-box;
 }
 
-.test {
-  color: red;
+.hamburger-icon{
+margin-left: auto;
+}
+
+.hamburger-menu-show {
+  width: 100%;
+  height: 80%;
+}
+
+.hamburger-menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger-menu-item:hover{
+  text-decoration: underline;
+}
+
+.hamburger-menu-close-icon{
+  margin: 10px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.speedFacts-row{
+}
+
+.speedFacts-row-content{
+  margin:0 2vw 0 2vw ;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FAQ-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.FAQ-question {
+  font-weight: bold;
+}
+
+.FAQ-transition {
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.9 ) skew(0deg) translate(8px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  }
+}
+
+.header {
+  height: 100vh;
+  width: 25%;
+  min-width: 240px;
+  border-right: 1px solid #E8EAED;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+  margin-right: 50px
+}
+
+.brf-magelungen-title-logo{
+  width: 100px;
+  font-family: Oswald;
+}
+
+.home-container{
+  width: 100%;
+}
+
+.hero-img-wrapper{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.hero-img-wrapper .hero-img {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+
 }
