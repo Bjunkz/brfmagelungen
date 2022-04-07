@@ -37,11 +37,12 @@ export default function Home({news}) {
         </div>
 
 
-        {/* <div>
+        <div className='news-container'>
+          <h3>Nyheter</h3>
         {news.map(newsPost => {
           return <NewsPost newsPost={newsPost} />
         })}
-      </div> */}
+      </div>
       
 
     </>

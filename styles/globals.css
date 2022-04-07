@@ -50,11 +50,16 @@ margin-left: auto;
   justify-content: right;
 }
 
+.speedFacts-container hr{
+  border: 1px solid #E8EAED;
+}
+
 .speedFacts-row{
 }
 
+
 .speedFacts-row-content{
-  margin:0 2vw 0 2vw ;  
+  margin: 14px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -154,21 +159,27 @@ cursor: pointer;
 }
 
 .promo-container{
-  height: 200px;
   width: 20vw;
-  padding: 5px;
-  padding-left: 20px;
+  height: 200px;
   background-color:#FFF3C2;
   border-radius: 0.3rem;
   cursor: pointer;
 }
 
 .promo-top-row{
-  margin-top: 18px;
-  margin-right: 10px;
+align-items: center;
 }
 
 .promo-section{
   width: 100%;
-  gap: 2vw;
+  gap: 50px;
+}
+
+.news-post-container{
+  border: 1px solid #E8EAED;
+  width: 300px;
+}
+
+.news-container{
+  display: grid;
 }
