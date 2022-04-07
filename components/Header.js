@@ -13,10 +13,11 @@ export default function Header () {
     <div className='header'>
         <div>
         <Link href='/'>
-                <Image src="/hsb-logo.png" width="100" height="70"/>
-                </Link>
-
-                <h1 className='brf-magelungen-title-logo'>BRF MAGELUNGEN</h1>
+            <Image src="/hsb-logo.png" width="100" height="70" className='hsb-logo'/>
+        </Link>
+        <Link href='/'>
+            <h2 className='brf-magelungen-title-logo'>BRF MAGELUNGEN</h2>
+        </Link>
         </div>
 
 

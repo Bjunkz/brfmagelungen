@@ -2,6 +2,7 @@
 @import url('./positioning.css');
 @import url('./reset-html.css');
 @import url('./spacing.css');
+@import url('./icons.css');
 
 html,
 body {
@@ -88,35 +89,86 @@ margin-left: auto;
 
 .header {
   height: 100vh;
-  width: 25%;
   min-width: 240px;
+  max-width: 300px;
   border-right: 1px solid #E8EAED;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px 20px 20px 20px;
-  margin-right: 50px
+  margin-right: 50px;
+  float: left;
+  position: sticky;
 }
 
 .brf-magelungen-title-logo{
+  font-size: 2rem;
   width: 100px;
   font-family: Oswald;
+}
+.brf-magelungen-title-logo:hover{
+cursor: pointer;
+}
+
+.hsb-logo:hover{
+  cursor: pointer;
 }
 
 .home-container{
   width: 100%;
 }
 
+.home-welcome-h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+}
+
 .hero-img-wrapper{
+  width: 600px;
+  height: 600px;
   position: absolute;
   right: 0;
   z-index: -1;
 }
 
-.hero-img-wrapper .hero-img {
-    object-fit: contain;
-    width: 100% !important;
-    position: relative !important;
-    height: unset !important;
+.hero-img{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100px
+}
 
+
+.standard-button{
+  background-color: #F4C803;
+  border-radius: 0.3rem;
+  border: none;
+  padding: 15px
+}
+.standard-button:hover{
+cursor: pointer;
+}
+.standard-button:active{
+cursor: pointer;
+}
+
+.promo-container{
+  height: 200px;
+  width: 20vw;
+  padding: 5px;
+  padding-left: 20px;
+  background-color:#FFF3C2;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.promo-top-row{
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.promo-section{
+  width: 100%;
+  gap: 2vw;
 }

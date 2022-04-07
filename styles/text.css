@@ -3,3 +3,14 @@
     font-size: 1.6rem;
 
 }
+
+.promo-text{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.promo-headline{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
