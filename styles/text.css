@@ -15,3 +15,15 @@
     font-weight: 500;
     margin: 0;
 }
+
+.news-post-date {
+    font-size: 0.9rem;
+}
+
+.news-post-dayMonth{
+    font-weight: 600;
+}
+
+.news-post-text{
+    line-height: 1.6rem;
+}

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, {useState} from 'react'
 import { IconContext } from 'react-icons'
 import { FiPlus, FiMinus} from 'react-icons/fi'
+import ReactMarkdown from 'react-markdown'
 
 const FAQ = (props) =>{
 
@@ -28,7 +29,10 @@ const toggle = (index) =>{
                         <span> {clicked===index ? <FiMinus/> : <FiPlus/>} </span>
                     </div>
                     {clicked === index ? (
-                    <div className='FAQ-transition'> {item.fields.answer}</div>) 
+                    <div className='FAQ-transition'>
+                        <ReactMarkdown>
+                        {item.fields.answer}
+                            </ReactMarkdown> </div>) 
                     : null}
                     </div>
                     <hr/>

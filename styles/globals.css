@@ -177,9 +177,14 @@ align-items: center;
 
 .news-post-container{
   border: 1px solid #E8EAED;
-  width: 300px;
+  width: 400px;
+  border-radius: 0.3rem;
+
 }
 
-.news-container{
+.news-container-grid{
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
 }
+

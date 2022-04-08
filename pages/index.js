@@ -35,13 +35,17 @@ export default function Home({news}) {
         <Promo headline='OM FÖRENINGEN' text='Nu är det dags att nominera till styrelsen, klicka här' link='/about'/>
         <Promo headline='FÖR BOENDE' text='Såhär använder du porttelefonen i höghusen' link='/for-boende'/>
         </div>
-
+        
+        <div className='spacing double'></div>
 
         <div className='news-container'>
           <h3>Nyheter</h3>
+          <div className='spacing medium'></div>
+          <div className='news-container-grid'>
         {news.map(newsPost => {
           return <NewsPost newsPost={newsPost} />
         })}
+          </div>
       </div>
       
 
