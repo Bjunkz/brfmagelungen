@@ -10,3 +10,11 @@
     height: 25px;
     margin-right: 10px;
 }
+
+.info-icon{
+    width: 40px;
+    height: 40px;
+}
+.info-icon-container{
+    margin-right: 25px;
+}

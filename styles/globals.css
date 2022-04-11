@@ -303,3 +303,14 @@ line-height: 1.6rem;
 .blanketter-och-dokument-divider{
   margin: 40px;
 }
+
+.important-box{
+  background-color: #FFF3C2;
+  padding: 40px;
+  border-radius: 0.3rem;
+
+}
+
+.important-info-text-container{
+  display: flex;
+}
