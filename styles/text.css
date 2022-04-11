@@ -4,7 +4,7 @@
 
 }
 
-.promo-text{
+.standard-text{
     font-size: 1.2rem;
     line-height: 1.6rem;
     margin: 0;
@@ -30,4 +30,8 @@
 
 .bold-text{
     font-weight: 600;
+}
+
+.underline-text{
+    text-decoration: underline;
 }

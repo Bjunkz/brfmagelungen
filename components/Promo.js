@@ -11,7 +11,7 @@ export default function Promo (promo) {
                 <h3 className='promo-headline'>{promo.headline}</h3>
                 <FaArrowRight className='arrow-right'/>
              </div>
-            <p className='promo-text'>{promo.text}</p>
+            <p className='standard-text'>{promo.text}</p>
         </div>
         </Link>
         

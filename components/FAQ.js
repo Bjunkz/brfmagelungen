@@ -17,7 +17,7 @@ const toggle = (index) =>{
 }
     return(
     <>
-    <div className='flex-row'>
+    <div className='FAQ-main-container flex-row-space-between'>
         <h3>Vanliga frågor</h3>
         <div className='FAQ-container'>
         {props.FAQ.map((item, index) => {

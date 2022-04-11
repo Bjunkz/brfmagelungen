@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/for-boende/blanketter-och-dokument.js"
-    ],
-    "/om-foreningen": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/om-foreningen.js"
     ]
   },
   "ampFirstPages": []

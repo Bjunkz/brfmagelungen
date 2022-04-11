@@ -4,3 +4,9 @@
     padding: 0;
     margin: 0;
 }
+
+.download-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}

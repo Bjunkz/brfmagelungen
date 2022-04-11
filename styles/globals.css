@@ -21,6 +21,17 @@ a {
   box-sizing: border-box;
 }
 
+h3{
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-container{
+  width: 75%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .hamburger-icon{
 margin-left: auto;
 }
@@ -51,37 +62,46 @@ margin-left: auto;
 }
 
 .speedFacts-main-container{
-  width: 60%;
+  width: 100%;
 }
 
 .speedFacts-container{
+  margin-top: 0px;
+  width: 70%;
 }
-.speedFacts-container hr{
+
+hr {
   border: 1px solid #E8EAED;
-  width: 150%;
+  width: 100%;
 }
 
 .speedFacts-row{
 }
 
 .speedFacts-fact{
-  margin-right: 20px;
+  color:#9A9A9A;
+  width: 70%;  
 }
 
 .speedFacts-answer{
   text-align: left;
+  width: 30%;
 }
 
 .speedFacts-row-content{
   margin: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+}
+
+.FAQ-main-container{
+  width: 100%;
 }
 
 .FAQ-container {
   display: flex;
   flex-direction: column;
+  width: 70%;
 }
 
 .FAQ-item-box{
@@ -117,14 +137,12 @@ margin-left: auto;
 
 .header {
   height: 100vh;
-  min-width: 240px;
-  max-width: 300px;
+  width: 25%;
   border-right: 1px solid #E8EAED;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px 20px 20px 20px;
-  margin-right: 50px;
   float: left;
   position: sticky;
 }
@@ -229,7 +247,7 @@ align-items: center;
   background-color: #EBF5FF;
   position: relative;
   top: -100px;
-  width: 72%;
+  width: 100%;
   /* height: 200px; */
   border-radius: 0.3rem;
   display: flex;
@@ -263,17 +281,25 @@ margin-right: 10px;
 }
 
 .page-intro-text{
-  width: 60%;
+  width: 80%;
   line-height: 2.2rem;
   font-size: 1.6rem;  
   font-weight: 300;
 }
 
 .page-more-text{
-width: 45%;
+width: 70%;
 line-height: 1.6rem;
 }
 
 .mail-link:hover{
   text-decoration: underline;
+}
+
+.blanketter-och-dokument-right{
+  width: 60%;
+}
+
+.blanketter-och-dokument-divider{
+  margin: 40px;
 }

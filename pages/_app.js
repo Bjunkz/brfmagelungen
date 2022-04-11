@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <>
       <div className='flex-row'>   
        <MainHeader />
-       <div>
+       <div className='main-container'>
         <Component {...pageProps} />
         <Footer/>
        </div>
