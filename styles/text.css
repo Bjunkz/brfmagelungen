@@ -27,3 +27,7 @@
 .news-post-text{
     line-height: 1.6rem;
 }
+
+.bold-text{
+    font-weight: 600;
+}

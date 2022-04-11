@@ -50,13 +50,27 @@ margin-left: auto;
   justify-content: right;
 }
 
+.speedFacts-main-container{
+  width: 60%;
+}
+
+.speedFacts-container{
+}
 .speedFacts-container hr{
   border: 1px solid #E8EAED;
+  width: 150%;
 }
 
 .speedFacts-row{
 }
 
+.speedFacts-fact{
+  margin-right: 20px;
+}
+
+.speedFacts-answer{
+  text-align: left;
+}
 
 .speedFacts-row-content{
   margin: 14px;
@@ -70,8 +84,17 @@ margin-left: auto;
   flex-direction: column;
 }
 
+.FAQ-item-box{
+  border: 1px solid #E8EAED;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 0.3rem;
+  width: 500px;
+  line-height: 1.6rem;
+}
+
 .FAQ-question {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .FAQ-transition {
@@ -188,3 +211,69 @@ align-items: center;
   gap: 25px;
 }
 
+.page-hero-placeholder{
+  position: relative;
+  left: -50px;
+  background-color: #D1D1D1;
+  width: 100vw;
+  height: 350px;
+}
+.page-no-hero-placeholder{
+  position: relative;
+  left: -50px;
+  width: 100vw;
+  height: 200px;
+}
+
+.page-header-container{
+  background-color: #EBF5FF;
+  position: relative;
+  top: -100px;
+  width: 72%;
+  /* height: 200px; */
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumbs{
+text-decoration: underline;
+font-weight: 600;
+padding-top: 30px;
+padding-left: 30px;
+}
+.breadcrumb{
+margin-right: 10px;
+}
+
+.page-headline{
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.page-header-links{
+  text-decoration: underline;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.page-header-links-container{
+  gap: 15px
+}
+
+.page-intro-text{
+  width: 60%;
+  line-height: 2.2rem;
+  font-size: 1.6rem;  
+  font-weight: 300;
+}
+
+.page-more-text{
+width: 45%;
+line-height: 1.6rem;
+}
+
+.mail-link:hover{
+  text-decoration: underline;
+}

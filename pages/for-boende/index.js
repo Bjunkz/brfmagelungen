@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import FAQ from '../../components/FAQ'
 import { createClient } from 'contentful' 
+import PageHeader from '../../components/PageHeader'
 
 const forMembers = ({FAQS}) => {
   return (
@@ -12,28 +13,40 @@ const forMembers = ({FAQS}) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
     <div>
-        <h1>För Boende</h1>
-        <div>
-          Här hittar du information till dig som bor i föreningen. nånting nånting osv
+    <div className='page-hero-placeholder'></div>
 
-          <ul>
-            <li>
-            <Link href="/for-boende/formsAndDocuments" as="/for-boende/blanketter-och-dokument">Blanketter och dokument</Link>
-            </li>
-            <li>
-            <Link href="/for-boende/foreningslokal">Föreningslokal</Link>
+      <PageHeader 
+      breadcrumbs={[
+        {text: 'Hem', URL: '/'},
+      ]}
+      title={'För boende'}
+      links={[
+        {linkText: 'Blanketter och dokument', URL: '/for-boende/blanketter-och-dokument'},
+        {linkText: 'Föreningslokal', URL: '/for-boende/foreningslokal'},
+        {linkText: 'Gästlägenhet', URL: '/for-boende/gastlagenhet'},
+        {linkText: 'Gym och bastu', URL: '/for-boende/gym-och-bastu'},
+      ]}
+      />      
 
-            </li>
-            <li>
-            <Link href="/for-boende/gymAndSauna" as="/for-boende/gym-och-bastu">Gym och bastu</Link>
+      <div className='page-intro-text'>
+      <span className='bold-text'>Här finns information som rör dig som bor i föreningen.</span> Fastighetsexpeditionen ligger på Skebokvarnsvägen 265 (ingång från gatan) och är bemannad helgfria vardagar 07.00-07.30. Övriga tider kan man lämna meddelande på telefonsvararen, telefon 08-86 42 87, som avlyssnas flera gånger under dagen eller e-post till <a  className='mail-link' href = "mailto: fastighet@brfmagelungen.se">fastighet@brfmagelungen.se</a>        <br/>
 
-            </li>
-            <li>
-            <Link href="/for-boende/guestApartment">Kontakt</Link>
-            </li>
-          </ul>
+      </div>
 
-        </div>
+      <div className='spacing medium'></div>
+
+      <div className='page-more-text'>
+        Föreningen har två fastighetsskötare, Kjell-Åke Nilsson och Pia Johansson.
+        <br/>
+        <div className='spacing small'></div>
+        Vid fel under kvällstid och helger kontakta alltid först Kjell-Åke Nilsson, tel 0707-14 43 92 innan ev jourmontör kontaktas.
+        <br/>
+        <div className='spacing small'></div>
+        Akuta fel som inträffar efter ordinarie arbetstids slut samt helger som kräver omedelbara åtgärder och som inte kunnat avhjälpas genom anvisningar från Kjell-Åke anmäls till:
+        JOURMONTÖR AB telefon 08-657 77 22.
+
+      </div>
+      <div className='spacing double'></div>
 
         <FAQ FAQ={FAQS}/>
         </div>

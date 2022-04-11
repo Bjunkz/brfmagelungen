@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React, { useState } from 'react';
 
-export default function Header () {
+export default function MainHeader () {
     const [showMenu, setShowMenu] = useState(true);
 
     const toggleMenu = () => {
@@ -40,7 +40,7 @@ export default function Header () {
                      </div>
                     <ul className='hamburger-menu-items'>
                         <li>
-                        <Link href="/about" as="om-foreningen"><a className='hamburger-menu-item'>Om föreningen</a></Link>
+                        <Link href="/om-foreningen"><a className='hamburger-menu-item'>Om föreningen</a></Link>
                         </li>
                         <li>
                         <Link href="/for-boende"><a className='hamburger-menu-item'>För boende</a></Link>
@@ -49,7 +49,7 @@ export default function Header () {
                         <Link href="/magelungsnytt"><a className='hamburger-menu-item'>Magelungsnytt</a></Link>
                         </li>
                         <li>
-                        <Link href="/contact" as="kontakt"><a className='hamburger-menu-item'>Kontakt</a></Link>    
+                        <Link href="/kontaklt"><a className='hamburger-menu-item'>Kontakt</a></Link>    
                         </li>
                     </ul>
             </nav> 

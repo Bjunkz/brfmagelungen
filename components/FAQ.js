@@ -17,26 +17,24 @@ const toggle = (index) =>{
 }
     return(
     <>
-    <div>
+    <div className='flex-row'>
         <h3>Vanliga frågor</h3>
         <div className='FAQ-container'>
         {props.FAQ.map((item, index) => {
             return(
-                <div>
-                    <div onClick={() => toggle(index)} key={index}>
-                    <div className='flex-row-space-between'>
-                       <div className='FAQ-question'> {item.fields.question}</div>
-                        <span> {clicked===index ? <FiMinus/> : <FiPlus/>} </span>
-                    </div>
-                    {clicked === index ? (
-                    <div className='FAQ-transition'>
-                        <ReactMarkdown>
-                        {item.fields.answer}
-                            </ReactMarkdown> </div>) 
-                    : null}
-                    </div>
-                    <hr/>
-                    
+                <div className='FAQ-item-box'>
+                        <div onClick={() => toggle(index)} key={index}>
+                            <div className='flex-row-space-between'>
+                            <div className='FAQ-question'> {item.fields.question}</div>
+                                <span> {clicked===index ? <FiMinus/> : <FiPlus/>} </span>
+                            </div>
+                            {clicked === index ? (
+                            <div className='FAQ-transition'>
+                                <ReactMarkdown>
+                                {item.fields.answer}
+                                    </ReactMarkdown> </div>) 
+                            : null}
+                        </div>                    
                     </div>
 
             )

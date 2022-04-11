@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Header from '../components/Header.js'
+import MainHeader from '../components/MainHeader.js'
 import Footer from '../components/Footer.js'
 
 function MyApp({ Component, pageProps }) {
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return(
       <>
       <div className='flex-row'>   
-       <Header />
+       <MainHeader />
        <div>
         <Component {...pageProps} />
         <Footer/>

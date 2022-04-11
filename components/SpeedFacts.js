@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function speedFacts () {
     return(<>
-    <div>
+    <div className='speedFacts-main-container flex-row-space-between'>
         <h3>Snabbfakta</h3>
 
         <div className='speedFacts-container'>
@@ -13,8 +13,8 @@ export default function speedFacts () {
             <div className='speedFacts-row'>
                 <hr></hr>
                 <div className='speedFacts-row-content'>
-                    <div>{fact.type}</div>
-                    <div>{fact.fact}</div>
+                    <div className='speedFacts-fact'>{fact.type}</div>
+                    <div className='speedFacts-answer'>{fact.fact}</div>
                 </div>
             </div>
             )}

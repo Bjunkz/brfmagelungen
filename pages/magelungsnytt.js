@@ -7,10 +7,13 @@ export default function magelungsNytt() {
   return (
     <>
         <Head>
-        <title>Om föreningen</title>
+        <title>Magelungsnytt</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-    <div><h1>Magelungsnytt</h1></div>
+    <div>
+      <h1>Magelungsnytt</h1>
+      <div className='spacing double'></div>
+    </div>
     </>
     
   )
