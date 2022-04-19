@@ -8,7 +8,6 @@ const PageHeader = (props) => {
          <div className="breadcrumbs flex-row">
 
          { props.breadcrumbs ? props.breadcrumbs.map((breadcrumb, index) => {
-             console.log(breadcrumb)
              return(
                     <Link href={breadcrumb.URL} key={index}><a className="breadcrumb">{breadcrumb.text}</a></Link>
              )

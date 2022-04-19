@@ -1,0 +1,331 @@
+h3{
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  ul{
+  
+  }
+  
+  li{
+    margin-bottom: 5px;
+  }
+  
+  .main-container{
+    width: 75%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .hamburger-icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .close-menu-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30vw
+  }
+  
+  .nav-menu {
+    width: 100%;
+    height: 80%;
+  }
+  .hamburger-menu-show {
+      position: relative;
+      background-color: white;
+      z-index: 100;
+      padding: 20px;
+      border-radius: 0.3rem;
+      top: 10vh;
+      left: -60vw
+    }
+  
+  .hamburger-menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hamburger-menu-item:hover{
+    text-decoration: underline;
+  }
+  
+  .hamburger-menu-item{
+    font-size: 1.4rem;
+  }
+  
+  .hamburger-menu-close-icon{
+    margin: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+  
+  .speedFacts-main-container{
+    width: 100%;
+  }
+  
+  .speedFacts-container{
+    margin-top: 0px;
+    width: 70%;
+  }
+  
+  hr {
+    border: 1px solid #E8EAED;
+    width: 100%;
+  }
+  
+  .speedFacts-row{
+  }
+  
+  .speedFacts-fact{
+    color:#9A9A9A;
+    width: 70%;  
+  }
+  
+  .speedFacts-answer{
+    text-align: left;
+    width: 30%;
+  }
+  
+  .speedFacts-row-content{
+    margin: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .FAQ-main-container{
+    width: 100%;
+  }
+  
+  .FAQ-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  
+  .FAQ-item-box{
+    border: 1px solid #E8EAED;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 0.3rem;
+    width: 500px;
+    line-height: 1.6rem;
+  }
+  
+  .FAQ-question {
+    font-weight: 600;
+  }
+  
+  .FAQ-transition {
+    -webkit-animation-name: cssAnimation;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+  }
+  
+  @-webkit-keyframes cssAnimation {
+    from {
+      -webkit-transform: rotate(0deg) scale(0.9 ) skew(0deg) translate(8px);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    }
+  }
+  
+  .header {
+    height: 100vh;
+    width: 25%;
+    border-right: 1px solid #E8EAED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .brf-magelungen-title-logo{
+    font-size: 2rem;
+    width: 100px;
+    font-family: Oswald;
+  }
+  .brf-magelungen-title-logo-mobile{
+    font-size: 2rem;
+    font-family: Oswald;
+  }
+  .brf-magelungen-title-logo:hover{
+  cursor: pointer;
+  }
+  
+  .hsb-logo:hover{
+    cursor: pointer;
+  }
+  
+  .home-container{
+    width: 100%;
+  }
+  
+  .home-welcome-h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.8rem;
+  }
+  
+  .hero-img-wrapper{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .hero-img{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100px
+  }
+  
+  
+  .standard-button{
+    background-color: #F4C803;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 15px
+  }
+  .standard-button:hover{
+  cursor: pointer;
+  }
+  .standard-button:active{
+  cursor: pointer;
+  }
+  
+  .promo-container{
+    width: 20vw;
+    height: 200px;
+    background-color:#FFF3C2;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .promo-top-row{
+  align-items: center;
+  }
+  
+  .promo-section{
+    width: 100%;
+    gap: 50px;
+  }
+  
+  .news-post-container{
+    border: 1px solid #E8EAED;
+    width: 400px;
+    border-radius: 0.3rem;
+  
+  }
+  
+  .news-container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  
+  .page-hero-placeholder{
+    position: relative;
+    left: -50px;
+    background-color: #D1D1D1;
+    width: 100vw;
+    height: 350px;
+  }
+  .page-no-hero-placeholder{
+    position: relative;
+    left: -50px;
+    width: 100vw;
+    height: 200px;
+  }
+  
+  .page-header-container{
+    background-color: #EBF5FF;
+    position: relative;
+    top: -100px;
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .breadcrumbs{
+  text-decoration: underline;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-left: 30px;
+  }
+  .breadcrumb{
+  margin-right: 10px;
+  }
+  
+  .page-headline{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  
+  .page-header-links{
+    text-decoration: underline;
+    padding-left: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .page-header-links-container{
+    gap: 15px
+  }
+  
+  .page-intro-text{
+    width: 80%;
+    line-height: 2.2rem;
+    font-size: 1.6rem;  
+    font-weight: 300;
+  }
+  
+  .page-more-text{
+  width: 70%;
+  line-height: 1.6rem;
+  }
+  
+  .mail-link:hover{
+    text-decoration: underline;
+  }
+  
+  .blanketter-och-dokument-right{
+    width: 60%;
+  }
+  
+  .blanketter-och-dokument-divider{
+    margin: 40px;
+  }
+  
+  .important-box{
+    background-color: #FFF3C2;
+    padding: 40px;
+    border-radius: 0.3rem;
+  }
+  
+  .important-box.foreningslokal {
+  width: 700px;
+  }
+  
+  .important-info-text-container{
+    display: flex;
+  }
+  
+  .foreningslokal-ordningsregler-container{
+    width: 700px;
+  }

@@ -11,7 +11,7 @@ export default function magelungsNyttPost (magelungsnytt) {
     return(
         <>
         
-        
+        tjenare
         </>
     )
 }

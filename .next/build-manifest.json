@@ -15,6 +15,11 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende/foreningslokal": [
+    "/for-boende": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende/foreningslokal.js"
+      "static/chunks/pages/for-boende.js"
     ]
   },
   "ampFirstPages": []
