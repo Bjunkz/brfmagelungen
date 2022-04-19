@@ -1,17 +1,21 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import {FaArrowRight} from 'react-icons/fa'
-import moment from 'moment'
-import 'moment/locale/sv' 
-import ReactMarkdown from 'react-markdown'
+import moment from "moment"
 
-
-export default function magelungsNyttPost (magelungsnytt) {
-    
+export default function MagelungsnyttPost (post) {
+    console.log("magnytt post", post)
     return(
-        <>
-        
-        tjenare
+        <>         
+        <a href={post.post.fields.magelungsnyttPdf.fields.file.url}>
+         <div className="magelungsnytt-post">
+             <div className="magelungsnytt-post-top-headline">MAGELUNGSNYTT</div>
+             <div className="spacing small"></div>
+             <div className="magelungsnytt-post-number">Nr. {post.post.fields.magelungsnyttNummer}</div>
+             <div className="spacing small"></div>
+             <div className="magelungsnytt-post-year">{moment(post.post.fields.date).format('yyyy')}</div>
+             <div className="spacing small"></div>
+             
+                 <div className="magelungsnytt-link">Läs nyhetsbrevet</div>
+             </div>
+             </a>
         </>
     )
 }

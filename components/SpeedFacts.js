@@ -1,6 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/image'
-
 export default function speedFacts () {
     return(<>
     <div className='speedFacts-main-container flex-row-space-between'>

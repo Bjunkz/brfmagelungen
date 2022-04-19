@@ -25,20 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende": [
+    "/magelungsnytt": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende.js"
-    ],
-    "/for-boende/blanketter-och-dokument": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/for-boende/blanketter-och-dokument.js"
-    ],
-    "/for-boende/foreningslokal": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/for-boende/foreningslokal.js"
+      "static/chunks/pages/magelungsnytt.js"
     ]
   },
   "ampFirstPages": []

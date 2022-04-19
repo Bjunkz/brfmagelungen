@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MagelungsnyttPost from '../../components/MagelungsnyttPost'
 import PageHeader from '../../components/PageHeader'
 import SpeedFacts from '../../components/SpeedFacts'
 

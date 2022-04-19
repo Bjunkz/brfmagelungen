@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import React, { useState } from 'react';
 import {TiThMenu} from 'react-icons/ti'
 import {IoMdClose} from 'react-icons/io'

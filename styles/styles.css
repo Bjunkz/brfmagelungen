@@ -329,3 +329,44 @@ h3{
   .foreningslokal-ordningsregler-container{
     width: 700px;
   }
+
+
+  .magelungsnytt-container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-left:5vw  }
+
+  .magelungsnytt-year-row{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+  }
+  .magelungsnytt-post{
+    background-color: #FFF3C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+  }
+
+  .magelungsnytt-post-top-headline{
+      font-size: 1rem;
+  }
+
+  .magelungsnytt-post-number{
+      font-size: 2.5rem;
+  }
+  .magelungsnytt-post-year{
+      font-size: 1.5rem;
+  }
+  .magelungsnytt-link{
+    padding-top: 10px;
+    border-top: 1px solid #E8EAED;
+  }
+  .magelungsnytt-link:hover{
+   cursor: pointer;  
+}
+

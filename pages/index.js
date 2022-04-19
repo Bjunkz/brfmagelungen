@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import { createClient } from 'contentful' 
 import NewsPost from '../components/NewsPost'
 import Promo from '../components/Promo'
