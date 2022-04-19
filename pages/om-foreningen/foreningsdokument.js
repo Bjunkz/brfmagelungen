@@ -33,7 +33,7 @@ export default function foreningsdokument() {
               <hr/>
               <div className='spacing small'></div>
             
-            <a download href='dokument/protokoll/stammoprotokoll2021.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/protokoll/stammoprotokoll2021.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2021
@@ -42,7 +42,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/protokoll/stammoprotokoll2020.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/protokoll/stammoprotokoll2020.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2020
@@ -51,7 +51,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-                <a download href='dokument/protokoll/stammoprotokoll2019.pdf' className='underline-text flex-row-align-center'>
+                <a download href='/dokument/protokoll/stammoprotokoll2019.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2019
@@ -60,7 +60,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-                <a download href='dokument/protokoll/stammoprotokoll2018.pdf' className='underline-text flex-row-align-center'>
+                <a download href='/dokument/protokoll/stammoprotokoll2018.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2018
@@ -69,7 +69,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/protokoll/stammoprotokoll2017.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/protokoll/stammoprotokoll2017.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2017
@@ -78,7 +78,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/protokoll/stammoprotokoll2016.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/protokoll/stammoprotokoll2016.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Föreningsstämmoprotokoll 2016
@@ -96,7 +96,7 @@ export default function foreningsdokument() {
               <hr/>
               <div className='spacing small'></div>
             
-            <a download href='dokument/redovisning/arsredovisning_brfmagelungen_2020.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/redovisning/arsredovisning_brfmagelungen_2020.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Årsredovisning 2020
@@ -105,7 +105,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/redovisning/arsredovisning_brfmagelungen_2019.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/redovisning/arsredovisning_brfmagelungen_2019.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Årsredovisning 2019
@@ -114,7 +114,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/redovisning/arsredovisning_brfmagelungen_2018.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/redovisning/arsredovisning_brfmagelungen_2018.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Årsredovisning 2018
@@ -123,7 +123,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/redovisning/arsredovisning_brfmagelungen_2017.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/redovisning/arsredovisning_brfmagelungen_2017.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Årsredovisning 2017
@@ -132,7 +132,7 @@ export default function foreningsdokument() {
             <div className='spacing small'></div>
             <hr/>
             <div className='spacing small'></div>
-            <a download href='dokument/redovisning/arsredovisning_brfmagelungen_2016.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/redovisning/arsredovisning_brfmagelungen_2016.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Årsredovisning 2016
@@ -153,7 +153,7 @@ export default function foreningsdokument() {
               <hr/>
               <div className='spacing small'></div>
             
-            <a download href='dokument/stadgar_magelungen_2086_2018-10-30.pdf' className='underline-text flex-row-align-center'>
+            <a download href='/dokument/stadgar_magelungen_2086_2018-10-30.pdf' className='underline-text flex-row-align-center'>
                 <AiOutlineDownload className='download-icon'/>
                 <span>
                 Stadgar

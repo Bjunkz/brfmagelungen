@@ -35,7 +35,7 @@ export default function formsAndDocuments() {
               <hr/>
               <div className='spacing small'></div>
                 
-              <a download href='dokument/blanketter/ansokan-om-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/blanketter/ansokan-om-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Ansökan om andrahandsupplåtelse
@@ -44,7 +44,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-                <a download href='dokument/blanketter/avtal-om-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
+                <a download href='/dokument/blanketter/avtal-om-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Avtal om andrahandsupplåtelse
@@ -53,7 +53,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-                <a download href='dokument/blanketter/principer-for-andrahandsupplatelse---for-boende.pdf' className='underline-text flex-row-align-center'>
+                <a download href='/dokument/blanketter/principer-for-andrahandsupplatelse---for-boende.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Principer för andrahandsupplåtelse
@@ -62,7 +62,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-                <a download href='dokument/blanketter/fullmakt--vid-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
+                <a download href='/dokument/blanketter/fullmakt--vid-andrahandsupplatelse-bostadsratt.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Fullmakt vid andrahandsupplåtelse
@@ -79,7 +79,7 @@ export default function formsAndDocuments() {
               <hr/>
               <div className='spacing small'></div>
                 
-              <a download href='dokument/blanketter/avtal-ombyggnad-lagenhet1.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/blanketter/avtal-ombyggnad-lagenhet1.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Avtal för ombyggnad av lägenhet
@@ -95,7 +95,7 @@ export default function formsAndDocuments() {
               <hr/>
               <div className='spacing small'></div>
                 
-              <a download href='dokument/valkomstbrev/valkommen-skannad.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/valkomstbrev/valkommen-skannad.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Välkommen
@@ -104,7 +104,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-              <a download href='dokument/valkomstbrev/valkommen-andrahand-2019-05-19.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/valkomstbrev/valkommen-andrahand-2019-05-19.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Välkommen - Andra hand
@@ -113,7 +113,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-              <a download href='dokument/valkomstbrev/welcome-2021-07-31.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/valkomstbrev/welcome-2021-07-31.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Welcome
@@ -122,7 +122,7 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
-              <a download href='dokument/valkomstbrev/welcome-sub-lessee-2019-05-19.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/valkomstbrev/welcome-sub-lessee-2019-05-19.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Welcome - Sub lessee
