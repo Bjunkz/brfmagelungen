@@ -22,6 +22,7 @@ export default function about() {
         {linkText: 'Föreningsdokument', URL: '/om-foreningen/foreningsdokument'}
       ]}
       />
+      <div className='spacing medium'></div>
 
       <div className='page-intro-text'>
         <span className='bold-text'>Välkommen till Brf Magelungen</span> 

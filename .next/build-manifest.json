@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende": [
+    "/om-foreningen": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende.js"
+      "static/chunks/pages/om-foreningen.js"
+    ],
+    "/om-foreningen/foreningsdokument": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/om-foreningen/foreningsdokument.js"
     ]
   },
   "ampFirstPages": []

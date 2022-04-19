@@ -23,7 +23,7 @@ export default function MainHeader () {
                     <img src="/hsb-logo.png" width="100" height="70" className='hsb-logo'/>
                 </Link>
                 <Link href='/'>
-                    <h2 className='brf-magelungen-title-logo'>BRF Magelungen <span className='mobile'>m</span></h2>
+                    <h2 className='brf-magelungen-title-logo'>BRF Magelungen</h2>
                 </Link>
                 </div>
                 <div>

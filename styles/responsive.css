@@ -11,10 +11,16 @@
 }
 
 @media (max-width: 480px) {
+    .main-container{
+        width: 100vw;
+        margin: 0;
+        padding-left: 10px;
+    }
     .main-layout{
         display: flex;
         flex-direction: column;
     }
+
     .mobile{
         display: block;
     }
@@ -37,6 +43,83 @@
         display: flex;
         height: 15vh;
     }
+    .promo-section{
+        width: 100%;
+        gap: 0px;
+    }
+    .promo-desktop-text{
+        display: none;
+    }
+    .promo-container{
+        height: 70px;
+        width: 32vw;
+        padding: 10px;
+        margin: 10px;
+      }
+      .promo-headline{
+        font-size: 1rem;
+      }
+      .snabblankar{
+          width: 300px;
+      }
+
+      .news-container-grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .promo-top-row .arrow-right{
+          display: none;
+      }
+
+      .brf-magelungen-title-logo{
+          margin-left: 20px;
+      }
+
+      .home-welcome-h1{
+          position: relative;
+        background-color: hsla(0, 100%, 100%, 0.5);
+        margin-right: 10px;
+      }
+
+      .page-hero-placeholder{
+          display: none;
+      }
+
+      .page-header-container{
+        background-color: #EBF5FF;
+        position: relative;
+        top: 0px;
+        width: 96vw;
+        margin-right: 200px;
+        border-radius: 0.3rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .page-headline{
+          font-size:2rem ;
+      }
+      .page-intro-text{
+          width: 100%;
+      }
+
+      .page-no-hero-placeholder{
+          display: none;
+      }
+
+      .page-more-text{
+          width: 90%;
+      }
+
+      .blanketter-och-dokument-row{
+          flex-direction: column;
+      }
+
+      .blanketter-och-dokument-container{
+        margin-left: 20px;          
+      }
+
 }
 
 .header-mobile{

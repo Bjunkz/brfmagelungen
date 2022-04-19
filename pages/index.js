@@ -28,13 +28,15 @@ export default function Home({news}) {
          </div>
 
          <div className='spacing double'></div>
-        <h3>Snabblänkar</h3>
-        <div className='spacing medium'></div>
-        <div className='promo-section flex-row-space-between'>
-        <Promo headline='TVÄTTSTUGA' text='Här kan du boka tvättstuga online' link='/'/>
-        <Promo headline='OM FÖRENINGEN' text='Nu är det dags att nominera till styrelsen, klicka här' link='/about'/>
-        <Promo headline='FÖR BOENDE' text='Såhär använder du porttelefonen i höghusen' link='/for-boende'/>
-        </div>
+         <div className='snabblankar'>
+          <h3>Snabblänkar</h3>
+          <div className='spacing medium'></div>
+          <div className='promo-section flex-row-space-between'>
+          <Promo headline='TVÄTTSTUGA' text='Här kan du boka tvättstuga online' link='/'/>
+          <Promo headline='VALBEREDNING' text='Nu är det dags att nominera till styrelsen, klicka här' link='/about'/>
+          <Promo headline='PORTTELEFON' text='Såhär använder du porttelefonen i höghusen' link='/for-boende'/>
+          </div>
+         </div>
         
         <div className='spacing double'></div>
 
