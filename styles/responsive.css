@@ -44,14 +44,16 @@
         height: 15vh;
     }
     .promo-section{
-        width: 100%;
-        gap: 0px;
+        max-width: 100%;
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
     }
     .promo-desktop-text{
         display: none;
     }
     .promo-container{
-        height: 70px;
+        height: 50px;
         width: 32vw;
         padding: 10px;
         margin: 10px;
@@ -97,6 +99,10 @@
         flex-direction: column;
       }
 
+      .page-header-links-container{
+          flex-wrap: wrap;
+      }
+
       .page-headline{
           font-size:2rem ;
       }
@@ -119,6 +125,25 @@
       .blanketter-och-dokument-container{
         margin-left: 20px;          
       }
+
+      .blanketter-och-dokument-right{
+          width: 100%;
+      }
+
+      .FAQ-main-container{
+          display: block;
+          margin: 0;
+          padding: 0;
+          
+      }
+      .FAQ-container{
+          margin: 0;
+      }
+      .FAQ-item-box{
+          width: 90vw;
+      }
+
+
 
 }
 

@@ -27,7 +27,7 @@ const forMembers = ({FAQS}) => {
         {linkText: 'Gym och bastu', URL: '/for-boende/gym-och-bastu'},
       ]}
       />      
-
+      <div className='spacing medium'></div>
       <div className='page-intro-text'>
       <span className='bold-text'>Här finns information som rör dig som bor i föreningen.</span> Fastighetsexpeditionen ligger på Skebokvarnsvägen 265 (ingång från gatan) och är bemannad helgfria vardagar 07.00-07.30. Övriga tider kan man lämna meddelande på telefonsvararen, telefon 08-86 42 87, som avlyssnas flera gånger under dagen eller e-post till <a  className='mail-link' href = "mailto: fastighet@brfmagelungen.se">fastighet@brfmagelungen.se</a>        <br/>
 
