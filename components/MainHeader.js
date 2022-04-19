@@ -19,7 +19,8 @@ export default function MainHeader () {
             <div className='header'>
                 <div className='icon-and-logo'>
                 <Link href='/'>
-                    <Image src="/hsb-logo.png" width="100" height="70" className='hsb-logo'/>
+                    {/* <Image src="/hsb-logo.png" width="100" height="70" className='hsb-logo'/> */}
+                    <img src="/hsb-logo.png" width="100" height="70" className='hsb-logo'/>
                 </Link>
                 <Link href='/'>
                     <h2 className='brf-magelungen-title-logo'>BRF Magelungen <span className='mobile'>m</span></h2>

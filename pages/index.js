@@ -16,7 +16,7 @@ export default function Home({news}) {
         <div className='home-container'>
 
             <div className='hero-img-wrapper'>
-              <Image src='/../public/hero.jpg' layout='fill' objectFit='cover' className='hero-img'/>
+              <Image src='/hero.jpg' layout='fill' objectFit='cover' className='hero-img'/>
             </div>
 
           <div className='spacing double'></div>
