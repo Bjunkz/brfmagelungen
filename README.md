@@ -28,3 +28,5 @@ npm install
 npm run dev
 
 This will start a server on localhost:3000
+
+The project is deployed on netlify and uses the main -branch as CI. 
