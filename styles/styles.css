@@ -376,3 +376,25 @@ hr {
 .magelungsnytt-link:hover {
   cursor: pointer;
 }
+
+.footer-container {
+  background-color: #ebf5ff;
+  width: 100%;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.footer-site-links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link {
+  text-decoration: underline;
+}
+
+.footer-headline {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
