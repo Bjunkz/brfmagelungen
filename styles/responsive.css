@@ -1,171 +1,188 @@
-.main-layout{
-    display: flex;
-    flex-direction: row;
+.main-layout {
+  display: flex;
+  flex-direction: row;
 }
-.mobile{
-    display: none;
+.mobile {
+  display: none;
 }
 
-.nav-menu-mobile{
-    display: none;
+.nav-menu-mobile {
+  display: none;
 }
 
 @media (max-width: 480px) {
-    .main-container{
-        width: 100vw;
-        margin: 0;
-        padding-left: 10px;
-    }
-    .main-layout{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mobile{
-        display: block;
-    }
-    .nav-menu-desktop{
-        display: none;
-    }
-    .nav-menu-mobile{
-        display: flex;
-        position: absolute;
-        left: 80vw
-    }
-    .header{
-        border: none;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        height: 30vh
-    }
-    .icon-and-logo{
-        display: flex;
-        height: 15vh;
-    }
-    .promo-section{
-        max-width: 100%;
-        flex-direction: column;
-        margin: 0;
-        gap: 0;
-    }
-    .promo-desktop-text{
-        display: none;
-    }
-    .promo-container{
-        height: 50px;
-        width: 35vw;
-        padding: 10px;
-        margin: 10px;
-      }
-      .promo-headline{
-        font-size: 1rem;
-      }
-      .snabblankar{
-          width: 300px;
-      }
-
-      .news-container-grid{
-        grid-template-columns: 1fr;
-        gap: 10px;
-      }
-
-      .promo-top-row .arrow-right{
-          display: none;
-      }
-
-      .brf-magelungen-title-logo{
-          margin-left: 20px;
-      }
-
-      .home-welcome-h1{
-          position: relative;
-        background-color: hsla(0, 100%, 100%, 0.5);
-        margin-right: 10px;
-      }
-
-      .page-hero-placeholder{
-          display: none;
-      }
-
-      .page-header-container{
-        background-color: #EBF5FF;
-        position: relative;
-        top: 0px;
-        width: 96vw;
-        margin-right: 200px;
-        border-radius: 0.3rem;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .page-header-links-container{
-          flex-wrap: wrap;
-      }
-
-      .page-headline{
-          font-size:2rem ;
-      }
-      .page-intro-text{
-          width: 90%;
-      }
-
-      .page-no-hero-placeholder{
-          display: none;
-      }
-
-      .page-more-text{
-          width: 90%;
-      }
-
-      .blanketter-och-dokument-row{
-          flex-direction: column;
-      }
-
-      .blanketter-och-dokument-container{
-        margin-left: 20px; 
-        margin-right:20px;         
-      }
-
-      .blanketter-och-dokument-right{
-          width: 100%;
-      }
-
-      .FAQ-main-container{
-          display: block;
-          margin: 0;
-          padding: 0;
-          
-      }
-      .FAQ-container{
-          margin: 0;
-      }
-      .FAQ-item-box{
-          width: 90vw;
-      }
-
-      .news-post-container{
-          max-width: 90vw;
-      }
-
-      .speedFacts-main-container{
-          flex-direction: column;
-      }
-
-      .magelungsnytt-year-row{
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 60vw;
-      }
-}
-
-.header-mobile{
-    width: 100%;
-}
-
-.header-mobile-positioning{
+  .main-container {
+    width: 100vw;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .main-layout {
     display: flex;
+    flex-direction: column;
+  }
+
+  .mobile {
+    display: block;
+  }
+  .nav-menu-desktop {
+    display: none;
+  }
+  .nav-menu-mobile {
+    display: flex;
+    position: absolute;
+    left: 80vw;
+  }
+  .header {
+    border: none;
     flex-direction: row;
     justify-content: space-between;
+    height: 30vh;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .icon-and-logo {
+    display: flex;
+    height: 15vh;
+  }
+  .brf-magelungen-title-logo {
+    font-size: ;
+  }
+  .promo-section {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+  }
+  .promo-desktop-text {
+  }
+
+  .promo-container {
+    height: 30vh;
+    width: 90vw;
+    margin: 10px;
+  }
+  .promo-headline {
+    font-size: 1rem;
+  }
+  .snabblankar {
+    width: 300px;
+  }
+
+  .news-container-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .brf-magelungen-title-logo {
+    margin-left: 20px;
+  }
+
+  .home-welcome-h1 {
+    position: relative;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    margin-right: 10px;
+  }
+
+  .page-hero-placeholder {
+    display: none;
+  }
+
+  .page-header-container {
+    background-color: #ebf5ff;
+    position: relative;
+    top: 0px;
+    width: 98%;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .page-header-links-container {
+    flex-wrap: wrap;
+  }
+
+  .page-headline {
+    font-size: 2rem;
+  }
+  .page-intro-text {
+    width: 100%;
+  }
+
+  .page-no-hero-placeholder {
+    display: none;
+  }
+
+  .page-more-text {
+    width: 90%;
+  }
+
+  .blanketter-och-dokument-row {
+    flex-direction: column;
+  }
+
+  .blanketter-och-dokument-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .blanketter-och-dokument-right {
+    width: 100%;
+  }
+
+  .FAQ-main-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .FAQ-container {
+    margin: 0;
+  }
+  .FAQ-item-box {
+    width: 90vw;
+  }
+
+  .news-post-container {
+    max-width: 90vw;
+  }
+
+  .speedFacts-main-container {
+    flex-direction: column;
+  }
+
+  .speedFacts-row {
+    width: 95vw;
+  }
+
+  .magelungsnytt-year-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+
+  .magelungsnytt-container {
+    width: 100vw;
+  }
+  .important-box {
+    padding: 10px;
+    width: 95vw;
+  }
+
+  .important-box.foreningslokal {
+    width: 95vw;
+  }
+  .foreningslokal-ordningsregler-container {
+    width: 95vw;
+  }
+}
+
+.header-mobile {
+  width: 100%;
+}
+
+.header-mobile-positioning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
