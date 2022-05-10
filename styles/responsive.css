@@ -30,7 +30,7 @@
   .nav-menu-mobile {
     display: flex;
     position: absolute;
-    left: 80vw;
+    left: 84vw;
   }
   .header {
     border: none;
@@ -39,13 +39,19 @@
     height: 30vh;
     padding: 0;
     padding-top: 20px;
+    width: 100%;
   }
   .icon-and-logo {
     display: flex;
     height: 15vh;
+    width: 70vw;
   }
   .brf-magelungen-title-logo {
-    font-size: ;
+    align-self: center;
+    margin-left: 0px;
+    padding: 0;
+    font-size: 2rem;
+    white-space: nowrap;
   }
   .promo-section {
     max-width: 100%;
@@ -71,10 +77,6 @@
   .news-container-grid {
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-
-  .brf-magelungen-title-logo {
-    margin-left: 20px;
   }
 
   .home-welcome-h1 {
@@ -106,7 +108,8 @@
     font-size: 2rem;
   }
   .page-intro-text {
-    width: 100%;
+    max-width: 100%;
+    font-size: 1.4rem;
   }
 
   .page-no-hero-placeholder {
@@ -114,7 +117,7 @@
   }
 
   .page-more-text {
-    width: 90%;
+    width: 96vw;
   }
 
   .blanketter-och-dokument-row {

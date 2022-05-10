@@ -25,15 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende/gastlagenhet": [
+    "/for-boende/blanketter-och-dokument": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende/gastlagenhet.js"
+      "static/chunks/pages/for-boende/blanketter-och-dokument.js"
     ],
-    "/magelungsnytt": [
+    "/for-boende/gym-och-bastu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/magelungsnytt.js"
+      "static/chunks/pages/for-boende/gym-och-bastu.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kontakt.js"
     ]
   },
   "ampFirstPages": []

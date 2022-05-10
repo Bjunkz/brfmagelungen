@@ -299,6 +299,10 @@ hr {
   font-weight: 300;
 }
 
+.page-intro-text-link {
+  text-decoration: underline;
+}
+
 .page-more-text {
   width: 70%;
   line-height: 1.6rem;
