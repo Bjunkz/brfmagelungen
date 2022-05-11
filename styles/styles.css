@@ -12,8 +12,9 @@ li {
 
 .main-container {
   width: 75%;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid #e8eaed;
 }
 
 .hamburger-icon {
@@ -35,8 +36,7 @@ li {
 }
 
 .nav-menu-desktop {
-  position: sticky;
-  top: 20px;
+  margin-top: 20vh;
 }
 
 .hamburger-menu-show {
@@ -121,12 +121,18 @@ hr {
   padding: 15px;
   margin: 5px;
   border-radius: 0.3rem;
-  width: 500px;
+  width: 40vw;
   line-height: 1.6rem;
+}
+.FAQ-item-box a {
+  text-decoration: underline;
 }
 
 .FAQ-question {
   font-weight: 600;
+}
+.FAQ-item-box:hover {
+  cursor: pointer;
 }
 
 .FAQ-transition {
@@ -150,10 +156,8 @@ hr {
 .header {
   height: 100vh;
   width: 25%;
-  border-right: 1px solid #e8eaed;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 20px 20px 20px 20px;
 }
 
@@ -237,7 +241,7 @@ hr {
 
 .news-container-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
   gap: 25px;
 }
 
@@ -245,7 +249,7 @@ hr {
   position: relative;
   left: -50px;
   background-color: #d1d1d1;
-  width: 100vw;
+  width: 75vw;
   height: 350px;
 }
 .page-no-hero-placeholder {
@@ -343,12 +347,14 @@ hr {
   flex-direction: column;
   gap: 20px;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .magelungsnytt-year-row {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  flex-wrap: wrap;
 }
 .magelungsnytt-post {
   background-color: #fff3c2;
@@ -380,7 +386,7 @@ hr {
 .footer-container {
   background-color: #ebf5ff;
   width: 100%;
-  padding: 50px;
+  padding: 2vw;
   justify-content: space-between;
 }
 

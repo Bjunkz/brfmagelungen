@@ -40,12 +40,10 @@ export default function magelungsNytt(props) {
       <div className="spacing medium"></div>
       <div className="magelungsnytt-container">
         {uniqYears.map((year) => {
-          console.log("year", year);
           return (
             <div className="magelungsnytt-year-row">
               {props.magelungsNytt.map((item) => {
                 if (moment(item.fields.date).format("yyyy") === year) {
-                  console.log("item", item.fields.title);
                   return (
                     <div>
                       <MagelungsnyttPost post={item} key={item.fields.title} />

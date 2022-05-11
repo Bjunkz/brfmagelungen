@@ -10,7 +10,7 @@
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .main-container {
     width: 100vw;
     margin: 0;
@@ -177,6 +177,16 @@
   }
   .foreningslokal-ordningsregler-container {
     width: 95vw;
+  }
+  .footer-container {
+    flex-direction: column;
+    width: 95vw;
+  }
+  .footer-headline {
+    margin-bottom: 20px;
+  }
+  .footer-contact-column {
+    margin-bottom: 20px;
   }
 }
 

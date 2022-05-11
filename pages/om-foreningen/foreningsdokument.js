@@ -39,7 +39,9 @@ export default function foreningsdokument() {
               <AiOutlineDownload className="download-icon" />
               <span>Föreningsstämmoprotokoll 2022</span>
             </a>
-
+            <div className="spacing small"></div>
+            <hr />
+            <div className="spacing small"></div>
             <a
               download
               href="/dokument/protokoll/stammoprotokoll2021.pdf"
