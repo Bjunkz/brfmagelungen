@@ -3,6 +3,7 @@ import Image from "next/image";
 import { createClient } from "contentful";
 import NewsPost from "../components/NewsPost";
 import Promo from "../components/Promo";
+import Link from "next/link";
 
 export default function Home({ news }) {
   return (
@@ -30,7 +31,9 @@ export default function Home({ news }) {
           <br /> Stockholm
         </h1>
         <div className="spacing double"></div>
-        <button className="standard-button">Läs mer om föreningen</button>
+        <Link href="/om-foreningen">
+          <button className="standard-button">Läs mer om föreningen</button>
+        </Link>
       </div>
 
       <div className="spacing double"></div>

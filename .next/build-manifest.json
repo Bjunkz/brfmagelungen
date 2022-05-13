@@ -30,6 +30,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/for-boende.js"
     ],
+    "/for-boende/blanketter-och-dokument": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/for-boende/blanketter-och-dokument.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kontakt.js"
+    ],
     "/magelungsnytt": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -255,7 +255,7 @@ hr {
 .page-no-hero-placeholder {
   position: relative;
   left: -50px;
-  width: 100vw;
+  width: 75vw;
   height: 200px;
 }
 
@@ -275,6 +275,7 @@ hr {
   font-weight: 600;
   padding-top: 30px;
   padding-left: 30px;
+  font-size: 1.2rem;
 }
 .breadcrumb {
   margin-right: 10px;
@@ -290,6 +291,7 @@ hr {
   text-decoration: underline;
   padding-left: 30px;
   margin-bottom: 40px;
+  font-size: 1.2rem;
 }
 
 .page-header-links-container {
@@ -388,6 +390,7 @@ hr {
   width: 100%;
   padding: 2vw;
   justify-content: space-between;
+  border-radius: 0.3rem;
 }
 
 .footer-site-links-container {
@@ -402,5 +405,15 @@ hr {
 
 .footer-headline {
   font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-container {
+  width: 100%;
+  line-height: 1.4rem;
+}
+
+.contact-left-column {
+  min-width: 30vw;
   font-size: 1.2rem;
 }

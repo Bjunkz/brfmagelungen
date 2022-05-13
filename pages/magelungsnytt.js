@@ -23,7 +23,7 @@ export default function magelungsNytt(props) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="page-hero-placeholder"></div>
+      <div className="page-no-hero-placeholder"></div>
       <PageHeader
         breadcrumbs={[{ text: "Hem", URL: "/" }]}
         title={"Magelungsnytt"}

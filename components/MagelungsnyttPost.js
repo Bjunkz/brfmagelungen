@@ -3,7 +3,11 @@ import moment from "moment";
 export default function MagelungsnyttPost(post) {
   return (
     <>
-      <a href={post.post.fields.magelungsnyttPdf.fields.file.url}>
+      <a
+        target="_blank"
+        href={post.post.fields.magelungsnyttPdf.fields.file.url}
+        rel="noopener noreferrer"
+      >
         <div className="magelungsnytt-post">
           <div className="magelungsnytt-post-top-headline">MAGELUNGSNYTT</div>
           <div className="spacing small"></div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
+import { useRouter } from "next/router";
 
 export default function MainHeader() {
   const [showMenu, setShowMenu] = useState(false);
@@ -9,6 +10,10 @@ export default function MainHeader() {
   const toggleMenu = () => {
     showMenu === false ? setShowMenu(true) : setShowMenu(false);
   };
+
+  const router = useRouter();
+
+  console.log(router.pathname);
 
   return (
     <>
@@ -35,22 +40,46 @@ export default function MainHeader() {
             <ul className="hamburger-menu-items">
               <li>
                 <Link href="/om-foreningen">
-                  <a className="hamburger-menu-item">Om föreningen</a>
+                  <span
+                    className={
+                      router.pathname === "/om-foreningen" ? "bold-text" : ""
+                    }
+                  >
+                    <a className="hamburger-menu-item">Om föreningen</a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/for-boende">
-                  <a className="hamburger-menu-item">För boende</a>
+                  <span
+                    className={
+                      router.pathname === "/for-boende" ? "bold-text" : ""
+                    }
+                  >
+                    <a className="hamburger-menu-item">För boende</a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/magelungsnytt">
-                  <a className="hamburger-menu-item">Magelungsnytt</a>
+                  <span
+                    className={
+                      router.pathname === "/magelungsnytt" ? "bold-text" : ""
+                    }
+                  >
+                    <a className="hamburger-menu-item">Magelungsnytt</a>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/kontakt">
-                  <a className="hamburger-menu-item">Kontakt</a>
+                  <span
+                    className={
+                      router.pathname === "/kontakt" ? "bold-text" : ""
+                    }
+                  >
+                    <a className="hamburger-menu-item">Kontakt</a>
+                  </span>
                 </Link>
               </li>
             </ul>

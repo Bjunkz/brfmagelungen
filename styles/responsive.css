@@ -15,6 +15,7 @@
     width: 100vw;
     margin: 0;
     padding-left: 10px;
+    padding-right: 0px;
   }
   .main-layout {
     display: flex;
@@ -187,6 +188,10 @@
   }
   .footer-contact-column {
     margin-bottom: 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
   }
 }
 
