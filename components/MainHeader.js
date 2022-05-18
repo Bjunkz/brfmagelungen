@@ -10,11 +10,7 @@ export default function MainHeader() {
   const toggleMenu = () => {
     showMenu === false ? setShowMenu(true) : setShowMenu(false);
   };
-
   const router = useRouter();
-
-  console.log(router.pathname);
-
   return (
     <>
       <div className="header">

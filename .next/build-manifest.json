@@ -15,6 +15,11 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,25 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende": [
+    "/om-foreningen": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende.js"
-    ],
-    "/for-boende/blanketter-och-dokument": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/for-boende/blanketter-och-dokument.js"
-    ],
-    "/kontakt": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/kontakt.js"
-    ],
-    "/magelungsnytt": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/magelungsnytt.js"
+      "static/chunks/pages/om-foreningen.js"
     ]
   },
   "ampFirstPages": []
