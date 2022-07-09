@@ -11,7 +11,7 @@ export default function gymAndSauna() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="page-hero-placeholder"></div>
+      <div className="page-no-hero-placeholder"></div>
 
       <PageHeader
         breadcrumbs={[
@@ -31,6 +31,7 @@ export default function gymAndSauna() {
         <Link href="/kontakt">
           <a className="page-intro-text-link">kontakta styrelsen</a>
         </Link>
+        <br />
         <br />
         Bastun går att boka tre timmar i taget mellan 07.00-22.00. Bokning görs
         på panelen som sitter på väggen utanför entrén till bastun.

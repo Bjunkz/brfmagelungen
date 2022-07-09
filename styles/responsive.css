@@ -16,10 +16,13 @@
     margin: 0;
     padding-left: 10px;
     padding-right: 0px;
+    border: none;
+    overflow: hidden;
   }
   .main-layout {
     display: flex;
     flex-direction: column;
+    border: none;
   }
 
   .mobile {
@@ -37,7 +40,7 @@
     border: none;
     flex-direction: row;
     justify-content: space-between;
-    height: 30vh;
+    height: 15vh;
     padding: 0;
     padding-top: 20px;
     width: 100%;
@@ -87,12 +90,16 @@
   }
 
   .page-hero-placeholder {
-    display: none;
+    /* display: none; */
+    width: 120%;
+    height: 100%;
+    position: relative;
+    margin-bottom: -20%;
+    overflow: hidden;
   }
 
   .page-header-container {
     background-color: #ebf5ff;
-    position: relative;
     top: 0px;
     width: 98%;
     border-radius: 0.3rem;
@@ -192,6 +199,14 @@
 
   .contact-container {
     flex-direction: column;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-container {
+    align-items: center;
+    justify-content: center;
   }
 }
 

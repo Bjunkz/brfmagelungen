@@ -48,8 +48,8 @@ export default function Home({ news }) {
             internal="false"
           />
           <Promo
-            headline="VALBEREDNING"
-            text="Nu är det dags att nominera till styrelsen, klicka här"
+            headline="MÄKLARINFO"
+            text="Här kan du som mäklare hitta information om föreningen"
             link="/om-foreningen"
             internal="true"
           />

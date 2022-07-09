@@ -2,8 +2,17 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "../../components/PageHeader";
+import { createClient } from "contentful";
+import Gallery from "../../components/Gallery";
 
-export default function guestApartment() {
+export default function guestApartment(props) {
+  console.log(props.imageGallery.fields.gstlgenhetGalleryImage[0]);
+
+  const imageGalleryArray =
+    props.imageGallery.fields.gstlgenhetGalleryImage.map((image) => {
+      return `https:${image.fields.file.url}`;
+    });
+
   return (
     <>
       <Head>
@@ -11,7 +20,13 @@ export default function guestApartment() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      <div className="page-hero-placeholder"></div>
+      <div className="page-hero-placeholder">
+        <Image
+          src={`http://${props.heroImage.includes.Asset[0].fields.file.url}`}
+          width="1500px"
+          height="600px"
+        />
+      </div>
 
       <PageHeader
         breadcrumbs={[
@@ -28,6 +43,8 @@ export default function guestApartment() {
         <br />
       </div>
 
+      <div className="spacing medium"></div>
+      <Gallery imageGalleryArray={imageGalleryArray} />
       <div className="spacing medium"></div>
 
       <div className="page-more-text">
@@ -51,4 +68,24 @@ export default function guestApartment() {
       </div>
     </>
   );
+}
+
+export async function getStaticProps() {
+  console.log("get static props");
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  });
+
+  const heroImage = await client.getEntries({
+    content_type: "gstlgenhetHero",
+  });
+  const imageGallery = await client.getEntry("21QWE12eI5W5QwDC7ZmRIL");
+
+  return {
+    props: {
+      heroImage: heroImage,
+      imageGallery: imageGallery,
+    },
+  };
 }

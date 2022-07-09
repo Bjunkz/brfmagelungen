@@ -1,25 +1,25 @@
 .arrow-right {
-    width: 25px;
-    height: 25px;
-    padding: 0;
-    margin: 0;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
 }
 
-.download-icon{
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+.download-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
-.info-icon{
-    width: 40px;
-    height: 40px;
+.info-icon {
+  width: 40px;
+  height: 40px;
 }
-.info-icon-container{
-    margin-right: 25px;
+.info-icon-container {
+  margin-right: 25px;
 }
 
-.close-menu-icon{
-    width: 50px;
-    height: 50px;
+.close-menu-icon {
+  width: 50px;
+  height: 50px;
 }
