@@ -1,11 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Gallery from "../../components/Gallery";
 import PageHeader from "../../components/PageHeader";
 import { createClient } from "contentful";
 import { BiInfoCircle } from "react-icons/bi";
 
-export default function foreningslokal(heroImage) {
+export default function foreningslokal(props) {
+  const imageGalleryArray = props.imageGallery.fields.images.map((image) => {
+    return `https:${image.fields.file.url}`;
+  });
   return (
     <>
       <Head>
@@ -15,7 +19,7 @@ export default function foreningslokal(heroImage) {
       <div>
         <div className="page-hero-placeholder">
           <Image
-            src={`http://${heroImage.heroImage.items[0].fields.image.fields.file.url}`}
+            src={`http://${props.heroImage.items[0].fields.image.fields.file.url}`}
             width="1500px"
             height="600px"
           />
@@ -37,6 +41,8 @@ export default function foreningslokal(heroImage) {
         samt en TV.
         <br />
       </div>
+      <div className="spacing medium"></div>
+      <Gallery imageGalleryArray={imageGalleryArray} />
       <div className="spacing double"></div>
       <h2>Boka föreningslokalen</h2>
       <div className="spacing medium"></div>
@@ -118,7 +124,6 @@ export default function foreningslokal(heroImage) {
 }
 
 export async function getStaticProps() {
-  console.log("get static props");
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,
@@ -128,9 +133,12 @@ export async function getStaticProps() {
     content_type: "freningslokalHero",
   });
 
+  const imageGallery = await client.getEntry("3btiz6iZ7VBe9WRxAJFjkK");
+
   return {
     props: {
       heroImage: heroImage,
+      imageGallery: imageGallery,
     },
   };
 }

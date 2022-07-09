@@ -2,17 +2,6 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function Gallery(imageGalleryArray) {
-  console.log(imageGalleryArray.imageGalleryArray);
-
-  // const imageArr = [
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  //   "https://i.pinimg.com/564x/93/1c/7f/931c7f70cf1a2a02ff9f6bfeb9aa36b5.jpg",
-  // ];
-
   const imageArr = imageGalleryArray.imageGalleryArray;
 
   const [onImageActive, setOnImageActive] = useState(false);

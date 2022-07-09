@@ -6,7 +6,7 @@ import PageHeader from "../../components/PageHeader";
 import SpeedFacts from "../../components/SpeedFacts";
 import { createClient } from "contentful";
 
-export default function about({ image }) {
+export default function about({ image, facts }) {
   return (
     <>
       <Head>
@@ -62,7 +62,7 @@ export default function about({ image }) {
 
       <div className="spacing double"></div>
 
-      <SpeedFacts />
+      <SpeedFacts facts={facts.items} />
 
       <div className="spacing double"></div>
     </>
@@ -79,10 +79,14 @@ export async function getStaticProps() {
   const image = await client.getEntries({
     content_type: "aboutHeroImage",
   });
+  const facts = await client.getEntries({
+    content_type: "snabbfakta",
+  });
 
   return {
     props: {
       image: image,
+      facts: facts,
     },
   };
 }
