@@ -216,11 +216,6 @@ hr {
   width: 100%;
 }
 
-.gallery-image {
-  width: 20vw;
-  height: 20vw;
-}
-
 .standard-button {
   background-color: #f4c803;
   border-radius: 0.3rem;
@@ -443,11 +438,18 @@ hr {
   align-items: center;
   gap: 0.5rem;
   max-width: 550px;
+  cursor: pointer;
 }
 .gallery-container {
   display: flex;
   align-items: flex-start;
 }
+
+.gallery-image {
+  width: 20vw;
+  height: 20vw;
+}
+
 .active-image {
   position: absolute;
   z-index: 999;

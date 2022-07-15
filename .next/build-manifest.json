@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/for-boende/foreningslokal.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kontakt.js"
     ]
   },
   "ampFirstPages": []
