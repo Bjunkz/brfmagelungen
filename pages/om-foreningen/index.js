@@ -14,10 +14,11 @@ export default function about({ image, facts }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="page-hero-placeholder">
-        <Image
+        <img
+          className="page-hero-image"
           src={`http://${image.includes.Asset[0].fields.file.url}`}
-          width="1500px"
-          height="600px"
+          // width="1500px"
+          // height="600px"
           alt="bild en utav föreningens fastigheter"
         />
       </div>

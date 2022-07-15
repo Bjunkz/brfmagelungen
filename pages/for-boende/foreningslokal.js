@@ -18,10 +18,9 @@ export default function foreningslokal(props) {
       </Head>
       <div>
         <div className="page-hero-placeholder">
-          <Image
+          <img
+            className="page-hero-image"
             src={`http://${props.heroImage.items[0].fields.image.fields.file.url}`}
-            width="1500px"
-            height="600px"
           />
         </div>
 

@@ -24,12 +24,12 @@ export default function Gallery(imageGalleryArray) {
           highlightImage(image);
         }}
       >
-        <Image
+        <img
           // layout="responsive"
+          className="gallery-image"
           src={image}
-          width={200}
-          height={200}
-          quality={1}
+          // width={200}
+          // height={200}
         />
       </div>
     );

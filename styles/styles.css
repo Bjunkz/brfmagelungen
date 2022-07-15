@@ -170,6 +170,7 @@ hr {
 }
 
 .brf-magelungen-title-logo {
+  margin-top: 40px;
   font-size: 2rem;
   width: 100px;
   font-family: Oswald;
@@ -209,6 +210,15 @@ hr {
   position: absolute;
   right: 0;
   top: 100px;
+}
+.page-hero-image {
+  height: 400px;
+  width: 100%;
+}
+
+.gallery-image {
+  width: 20vw;
+  height: 20vw;
 }
 
 .standard-button {
@@ -342,7 +352,7 @@ hr {
 }
 
 .important-box.foreningslokal {
-  width: 700px;
+  max-width: 700px;
 }
 
 .important-info-text-container {
@@ -350,7 +360,7 @@ hr {
 }
 
 .foreningslokal-ordningsregler-container {
-  width: 700px;
+  max-width: 700px;
 }
 
 .magelungsnytt-container {

@@ -62,8 +62,9 @@
     align-self: center;
     margin-left: 0px;
     padding: 0;
-    font-size: 2rem;
+    font-size: 1.7rem;
     white-space: nowrap;
+    margin-top: 0px;
   }
   .promo-section {
     max-width: 100%;
@@ -215,6 +216,10 @@
   .gallery-container {
     align-items: center;
     justify-content: center;
+  }
+  .gallery-image {
+    width: 35vw;
+    height: 35vw;
   }
 }
 
