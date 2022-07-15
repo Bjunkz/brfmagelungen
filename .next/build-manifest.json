@@ -30,15 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende": [
+    "/magelungsnytt": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende.js"
-    ],
-    "/for-boende/gastlagenhet": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/for-boende/gastlagenhet.js"
+      "static/chunks/pages/magelungsnytt.js"
     ]
   },
   "ampFirstPages": []

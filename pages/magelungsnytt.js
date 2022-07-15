@@ -7,7 +7,6 @@ import PageHeader from "../components/PageHeader";
 import moment from "moment";
 
 export default function magelungsNytt(props) {
-  //get array of all years that magelungsnytt has been published
   let years = props.magelungsNytt
     .map((item) => {
       return moment(item.fields.date).format("yyyy");
@@ -39,14 +38,14 @@ export default function magelungsNytt(props) {
       </div>
       <div className="spacing medium"></div>
       <div className="magelungsnytt-container">
-        {uniqYears.map((year) => {
+        {uniqYears.map((year, index) => {
           return (
-            <div className="magelungsnytt-year-row">
+            <div className="magelungsnytt-year-row" key={index}>
               {props.magelungsNytt.map((item) => {
                 if (moment(item.fields.date).format("yyyy") === year) {
                   return (
-                    <div>
-                      <MagelungsnyttPost post={item} key={item.fields.title} />
+                    <div key={item.fields.title}>
+                      <MagelungsnyttPost post={item} />
                     </div>
                   );
                 }

@@ -5,7 +5,7 @@ export default function MagelungsnyttPost(post) {
     <>
       <a
         target="_blank"
-        href={post.post.fields.magelungsnyttPdf.fields.file.url}
+        href={"https://" + post.post.fields.magelungsnyttPdf.fields.file.url}
         rel="noopener noreferrer"
       >
         <div className="magelungsnytt-post">
