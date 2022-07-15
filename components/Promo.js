@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Promo(promo) {
   return (
     <>
-      {promo.link.internal ? (
+      {promo.internal ? (
         <Link href={promo.link}>
           <div className="promo-container flex-column-space-between standard-padding">
             <div className="flex-row-space-between promo-top-row">

@@ -39,6 +39,7 @@ export default function about({ image, facts }) {
           {" "}
           Brf Magelungen ligger i söderförorten Högdalen i Stockholm - Vantörs
           församling - med adresser Skebokvarnsvägen och Önskehemsgatan.
+          <br></br>
           Föreningen bildades 1954 och första inflyttningarna ägde rum 1956.
         </span>
       </div>

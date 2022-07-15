@@ -20,6 +20,7 @@ export default function Home({ news }) {
             layout="fill"
             objectFit="cover"
             className="hero-img"
+            priority={true}
           />
         </div>
 
@@ -45,19 +46,19 @@ export default function Home({ news }) {
             headline="TVÄTTSTUGA"
             text="Här kan du boka tvättstuga online"
             link="http://tvatt.brfmagelungen.se/"
-            internal="false"
+            internal={false}
           />
           <Promo
             headline="MÄKLARINFO"
-            text="Här kan du som mäklare hitta information om föreningen"
+            text="information om föreningen till mäklare"
             link="/om-foreningen"
-            internal="true"
+            internal={true}
           />
           <Promo
             headline="PORTTELEFON"
             text="Såhär använder du porttelefonen i höghusen"
             link="https://www.hsb.se/contentassets/5529b2481df44057980dbe427f58ebec/ringa20170720anvc3a4ndarmanual20swe20rev2.pdf"
-            internal="false"
+            internal={false}
           />
         </div>
       </div>
@@ -68,8 +69,8 @@ export default function Home({ news }) {
         <h3>Nyheter</h3>
         <div className="spacing medium"></div>
         <div className="news-container-grid">
-          {news.map((newsPost) => {
-            return <NewsPost newsPost={newsPost} />;
+          {news.map((newsPost, index) => {
+            return <NewsPost newsPost={newsPost} key={index} />;
           })}
         </div>
       </div>

@@ -53,8 +53,8 @@ const forMembers = ({ FAQS, image }) => {
         <div className="spacing medium"></div>
 
         <div className="page-more-text">
-          Föreningen har två fastighetsskötare, Kjell-Åke Nilsson och Pia
-          Johansson.
+          Föreningen har två fastighetsskötare,<br></br> Kjell-Åke Nilsson och
+          Pia Johansson.
           <br />
           <div className="spacing small"></div>
           Vid fel under kvällstid och helger kontakta alltid först Kjell-Åke

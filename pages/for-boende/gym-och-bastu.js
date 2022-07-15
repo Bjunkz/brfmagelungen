@@ -29,12 +29,21 @@ export default function gymAndSauna() {
         att kunna öppna gymmet till hösten 2022. Har du tips eller önskemål om
         utrustning eller liknande vänligen{" "}
         <Link href="/kontakt">
-          <a className="page-intro-text-link">kontakta styrelsen</a>
+          <a className="page-intro-text-link">kontakta styrelsen.</a>
         </Link>
         <br />
         <br />
         Bastun går att boka tre timmar i taget mellan 07.00-22.00. Bokning görs
-        på panelen som sitter på väggen utanför entrén till bastun.
+        på panelen som sitter på väggen utanför entrén till bastun. Tänk på att
+        hålla ner ljudnivån då det är väldigt lyhört till de boende kring
+        bastu-området.
+        <br />
+        <span>
+          Felanmälan görs till{" "}
+          <Link href="/kontakt">
+            <a className="page-intro-text-link">Fastighetsexpeditionen</a>
+          </Link>
+        </span>
       </div>
 
       <div className="spacing medium"></div>

@@ -18,7 +18,6 @@ export default function kontakt(props) {
     return 0;
   });
 
-  console.log(filteredStyrelse);
   return (
     <>
       <Head>
@@ -35,7 +34,11 @@ export default function kontakt(props) {
         <div>
           <div>
             Du kan kontakta fastighetsexpeditionen i ärenden som felanmälan,
-            nyckelhantering, bokning av gästlägenhet med mera.
+            nyckelhantering, bokning av gästlägenhet med mera. Expeditionen är
+            bemannad helgfria vardagar 07.00-07.30. Övriga tider går bra att
+            ringa (tala in ett meddelande om ingen svarar så hör dom av sig)
+            eller maila. Dom som jobbar på fastighetsexpeditionen är Kjell-Åke
+            Nilsson och Pia Johansson.
           </div>
           <br></br>
           <span className="bold-text">E-post: </span>
@@ -66,9 +69,9 @@ export default function kontakt(props) {
           <div className="spacing small"></div>
           <hr></hr>
           <div className="spacing small"></div>
-          {filteredStyrelse.map((styrelsemedlem) => {
+          {filteredStyrelse.map((styrelsemedlem, index) => {
             return (
-              <div className="contact-styrelsemedlem">
+              <div className="contact-styrelsemedlem" key={index}>
                 <div className="spacing medium"></div>
                 <div className="bold-text">
                   {styrelsemedlem.fields.namn}
