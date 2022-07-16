@@ -16,7 +16,7 @@ const forMembers = ({ FAQS, image }) => {
         <div className="page-hero-placeholder">
           <img
             className="page-hero-image"
-            src={`http://${image.includes.Asset[0].fields.file.url}`}
+            src={`https://${image.includes.Asset[0].fields.file.url}`}
             // width="1500px"
             // height="600px"
             alt="bild på föreningslokalen"
