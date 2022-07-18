@@ -1,5 +1,8 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/for-boende": "pages/for-boende.js",
+  "/for-boende/gastlagenhet": "pages/for-boende/gastlagenhet.js",
+  "/": "pages/index.js"
 }
