@@ -5,7 +5,6 @@ import { createClient } from "contentful";
 import PageHeader from "../../components/PageHeader";
 
 const forMembers = ({ FAQS, image }) => {
-  console.log(image.includes);
   return (
     <>
       <Head>

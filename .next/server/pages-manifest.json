@@ -2,7 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/magelungsnytt": "pages/magelungsnytt.js",
+  "/kontakt": "pages/kontakt.js",
   "/for-boende": "pages/for-boende.js",
-  "/om-foreningen": "pages/om-foreningen.js"
+  "/magelungsnytt": "pages/magelungsnytt.js",
+  "/for-boende/blanketter-och-dokument": "pages/for-boende/blanketter-och-dokument.js",
+  "/for-boende/gastlagenhet": "pages/for-boende/gastlagenhet.js",
+  "/for-boende/foreningslokal": "pages/for-boende/foreningslokal.js",
+  "/for-boende/gym-och-bastu": "pages/for-boende/gym-och-bastu.js"
 }

@@ -6,8 +6,6 @@ import { createClient } from "contentful";
 import Gallery from "../../components/Gallery";
 
 export default function guestApartment(props) {
-  console.log(props.imageGallery.fields.gstlgenhetGalleryImage[0]);
-
   const imageGalleryArray =
     props.imageGallery.fields.gstlgenhetGalleryImage.map((image) => {
       return `https:${image.fields.file.url}`;
