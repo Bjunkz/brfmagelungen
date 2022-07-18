@@ -10,7 +10,7 @@ export default function Header() {
           <a href="#top">BRF Magelungen</a>
         </div>
         <div className="footer-contact-column">
-          <a className="mail-link" href="mailto: fastighet@brfmagelungen.se">
+          <a className="mail-link" href="mailto: styrelse@brfmagelungen.se">
             styrelse@brfmagelungen.se
           </a>
           <div className="spacing small"></div>

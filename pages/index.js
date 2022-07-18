@@ -4,6 +4,7 @@ import { createClient } from "contentful";
 import NewsPost from "../components/NewsPost";
 import Promo from "../components/Promo";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Home({ news }) {
   return (
@@ -11,6 +12,17 @@ export default function Home({ news }) {
       <Head>
         <title>HSB Brf Magelungen</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4CLY6EF7E0"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-4CLY6EF7E0');`}
+        </Script>
       </Head>
 
       <div className="home-container">

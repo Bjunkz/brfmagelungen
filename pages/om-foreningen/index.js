@@ -16,10 +16,10 @@ export default function about({ image, facts }) {
       <div className="page-hero-placeholder">
         <img
           className="page-hero-image"
-          src={`http://${image.includes.Asset[0].fields.file.url}`}
+          src={`https://${image.includes.Asset[0].fields.file.url}`}
           // width="1500px"
           // height="600px"
-          alt="bild en utav föreningens fastigheter"
+          alt="bild på en av föreningens fastigheter"
         />
       </div>
       <PageHeader
