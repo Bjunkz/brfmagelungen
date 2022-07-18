@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/for-boende.js"
     ],
-    "/for-boende/gastlagenhet": [
+    "/kontakt": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende/gastlagenhet.js"
+      "static/chunks/pages/kontakt.js"
+    ],
+    "/magelungsnytt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/magelungsnytt.js"
+    ],
+    "/om-foreningen": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/om-foreningen.js"
     ]
   },
   "ampFirstPages": []

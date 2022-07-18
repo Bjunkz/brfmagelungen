@@ -22,7 +22,7 @@ export default function guestApartment(props) {
 
       <div className="page-hero-placeholder">
         <img
-          src={`http://${props.heroImage.includes.Asset[0].fields.file.url}`}
+          src={`https://${props.heroImage.includes.Asset[0].fields.file.url}`}
           width="1500px"
           height="600px"
         />

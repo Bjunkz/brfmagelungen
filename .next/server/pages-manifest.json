@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/magelungsnytt": "pages/magelungsnytt.js",
   "/for-boende": "pages/for-boende.js",
-  "/for-boende/gastlagenhet": "pages/for-boende/gastlagenhet.js",
-  "/": "pages/index.js"
+  "/om-foreningen": "pages/om-foreningen.js"
 }
