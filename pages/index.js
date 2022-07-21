@@ -57,7 +57,7 @@ export default function Home({ news }) {
           <Promo
             headline="TVÄTTSTUGA"
             text="Här kan du boka tvättstuga online"
-            link="http://tvatt.brfmagelungen.se/"
+            link="https://magelungen.aptustotal.se/AptusPortal/Account/Login?ReturnUrl=%2fAptusPortal%2f"
             internal={false}
           />
           <Promo
