@@ -28,13 +28,3 @@ export default function speedFacts(facts) {
     </>
   );
 }
-
-// const facts = [
-//   { type: "Byggår", fact: "1956" },
-//   { type: "Antal lägenheter", fact: "501" },
-//   { type: "Parkeringsplatser", fact: "120 st" },
-//   { type: "Garage", fact: "35 st" },
-//   { type: "Stambytt", fact: "2001-2003" },
-//   { type: "Gym/bastu", fact: "ja" },
-//   { type: "Gästlägenhet", fact: "Ja, med fyra sovplatser" },
-// ];

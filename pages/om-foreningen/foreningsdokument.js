@@ -33,7 +33,7 @@ export default function foreningsdokument() {
 
             <a
               download
-              href="/dokument/protokoll/stammoprotokoll2021.pdf"
+              href="/dokument/protokoll/stammoprotokoll2022.pdf"
               className="underline-text flex-row-align-center"
             >
               <AiOutlineDownload className="download-icon" />

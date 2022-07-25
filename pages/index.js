@@ -62,7 +62,7 @@ export default function Home({ news }) {
           />
           <Promo
             headline="MÄKLARINFO"
-            text="information om föreningen till mäklare"
+            text="Information om föreningen till mäklare"
             link="/om-foreningen"
             internal={true}
           />
