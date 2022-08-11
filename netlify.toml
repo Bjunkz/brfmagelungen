@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/tvatt.brfmagelungen.se"
+from = "https://tvatt.brfmagelungen.se"
 to = "https://magelungen.aptustotal.se/AptusPortal/Account/Login?ReturnUrl=%2fAptusPortal%2f"
 status = 200
 force = true
