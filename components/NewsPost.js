@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import moment from "moment";
 import "moment/locale/sv";
+import ReactMarkdown from "react-markdown";
 
 export default function NewsPost(newsPost) {
   let dayMonth = moment(newsPost.newsPost.sys.createdAt).format("D MMMM");
@@ -20,7 +21,7 @@ export default function NewsPost(newsPost) {
         <h3>{newsPost.newsPost.fields.rubrik}</h3>
         <div className="spacing small"></div>
         <p className="no-margin news-post-text">
-          {newsPost.newsPost.fields.nyhetstext}
+          <ReactMarkdown>{newsPost.newsPost.fields.nyhetstext}</ReactMarkdown>
         </p>
       </div>
     </>

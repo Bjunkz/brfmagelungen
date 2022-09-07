@@ -103,11 +103,58 @@ export default function kontakt(props) {
           })}
         </div>
       </div>
+      <div className="spacing medium"></div>
+      <div className="contact-container flex-row-space-between">
+        <div className="contact-left-column bold-text">Valberedningen</div>
+        <div>
+          <div>
+            Valberedningens uppdrag är att ta fram förslag på styrelsemedlemmar
+            vilket kan förändras varje mandatperiod om ett år. Intresse kan
+            lämnas när som helst.
+          </div>
+          <br></br>
+          {/* <span className="bold-text">E-post: </span> */}
+          <a
+            className="mail-link bold-text"
+            href="mailto: lisbeth.sagefjord@gmail.com"
+          >
+            Lisbeth Sagefjord
+          </a>
+          <br />
+          <a className="mail-link bold-text" href="mailto: l.mettala@gmail.com">
+            Lars Mettälä
+          </a>
+          <div className="spacing small"></div>
+          <hr></hr>
+          <div className="spacing small"></div>
+        </div>
+      </div>
+      <div className="contact-container flex-row-space-between">
+        <div className="contact-left-column bold-text">Revisor</div>
+        <div>
+          <div>
+            Revisorns uppgift är att granska föreningens ekonomi och styrelsens
+            arbete så att medlemmarnas intressen efterföljs.
+          </div>
+          <br></br>
+          {/* <span className="bold-text">E-post: </span> */}
+          <a
+            className="mail-link bold-text"
+            href="mailto: georgi.lund@gmail.com"
+          >
+            George Lundqvist
+          </a>
+          <br />
+          <div className="spacing small"></div>
+          <hr></hr>
+          <div className="spacing small"></div>
+        </div>
+      </div>
     </>
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_KEY,

@@ -71,7 +71,7 @@ export default function about({ image, facts }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   console.log("get static props");
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,

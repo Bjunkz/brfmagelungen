@@ -10,6 +10,10 @@ li {
   margin-bottom: 5px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .main-container {
   width: 75%;
   padding-left: 50px;

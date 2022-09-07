@@ -42,8 +42,9 @@ const forMembers = ({ FAQS, image }) => {
           </span>{" "}
           Fastighetsexpeditionen ligger på Skebokvarnsvägen 265 (ingång från
           gatan) och är bemannad helgfria vardagar 07.00-07.30. Övriga tider kan
-          man lämna meddelande på telefonsvararen, telefon 08-86 42 87, som
-          avlyssnas flera gånger under dagen eller e-post till{" "}
+          man lämna meddelande på telefonsvararen, telefon{" "}
+          <a href="tel:08-86 42 87">08-86 42 87</a>, som avlyssnas flera gånger
+          under dagen eller e-post till{" "}
           <a className="mail-link" href="mailto: fastighet@brfmagelungen.se">
             fastighet@brfmagelungen.se
           </a>{" "}
@@ -58,13 +59,19 @@ const forMembers = ({ FAQS, image }) => {
           <br />
           <div className="spacing small"></div>
           Vid fel under kvällstid och helger kontakta alltid först Kjell-Åke
-          Nilsson, tel 0707-14 43 92 innan ev jourmontör kontaktas.
+          Nilsson, tel <a href="tel:0707-14 43 92">0707-14 43 92</a> innan ev
+          jourmontör kontaktas.
           <br />
           <div className="spacing small"></div>
           Akuta fel som inträffar efter ordinarie arbetstids slut samt helger
           som kräver omedelbara åtgärder och som inte kunnat avhjälpas genom
-          anvisningar från Kjell-Åke anmäls till: JOURMONTÖR AB telefon 08-657
-          77 22.
+          anvisningar från Kjell-Åke anmäls till: JOURMONTÖR AB telefon{" "}
+          <a
+            href="tel:08-657
+          77 22"
+          >
+            08-657 77 22
+          </a>
         </div>
         <div className="spacing double"></div>
 
@@ -76,7 +83,7 @@ const forMembers = ({ FAQS, image }) => {
 
 export default forMembers;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   console.log("get static props");
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
