@@ -10,19 +10,21 @@ export default function NewsPost(newsPost) {
   return (
     <>
       <div className="news-post-container standard-padding">
-        <div className="flex-row-space-between promo-top-row">
-          <span className="no-margin news-post-date">
-            <span className="news-post-dayMonth">{dayMonth}</span>
-            <span className="news-post-year"> {year}</span>
-          </span>
-          {/* <FaArrowRight className="arrow-right" /> */}
+        <div className="news-post-container-border">
+          <div className="flex-row-space-between promo-top-row ">
+            <span className="no-margin news-post-date">
+              <span className="news-post-dayMonth">{dayMonth}</span>
+              <span className="news-post-year"> {year}</span>
+            </span>
+            {/* <FaArrowRight className="arrow-right" /> */}
+          </div>
+          <div className="spacing medium"></div>
+          <h3>{newsPost.newsPost.fields.rubrik}</h3>
+          <div className="spacing small"></div>
+          <p className="no-margin news-post-text">
+            <ReactMarkdown>{newsPost.newsPost.fields.nyhetstext}</ReactMarkdown>
+          </p>
         </div>
-        <div className="spacing medium"></div>
-        <h3>{newsPost.newsPost.fields.rubrik}</h3>
-        <div className="spacing small"></div>
-        <p className="no-margin news-post-text">
-          <ReactMarkdown>{newsPost.newsPost.fields.nyhetstext}</ReactMarkdown>
-        </p>
       </div>
     </>
   );
