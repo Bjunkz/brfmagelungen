@@ -21,9 +21,9 @@ export default function NewsPost(newsPost) {
           <div className="spacing medium"></div>
           <h3>{newsPost.newsPost.fields.rubrik}</h3>
           <div className="spacing small"></div>
-          <p className="no-margin news-post-text">
-            <ReactMarkdown>{newsPost.newsPost.fields.nyhetstext}</ReactMarkdown>
-          </p>
+          <ReactMarkdown className="no-margin news-post-text">
+            {newsPost.newsPost.fields.nyhetstext}
+          </ReactMarkdown>
         </div>
       </div>
     </>
