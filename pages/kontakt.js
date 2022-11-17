@@ -132,6 +132,10 @@ export default function kontakt(props) {
             l.mettala@gmail.com
           </a>
           <div className="spacing small"></div>
+          <span className="bold-text">tel: </span>
+          <a href={"tel: 0733-122807"} className="underline-text">
+            0733-122807
+          </a>
           <hr></hr>
           <div className="spacing small"></div>
         </div>
