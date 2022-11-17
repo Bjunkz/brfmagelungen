@@ -113,16 +113,23 @@ export default function kontakt(props) {
             lämnas när som helst.
           </div>
           <br></br>
-          {/* <span className="bold-text">E-post: </span> */}
-          <a
-            className="mail-link bold-text"
-            href="mailto: lisbeth.sagefjord@gmail.com"
-          >
-            Lisbeth Sagefjord
+          <div className="bold-text">Lisbeth Sagefjord</div>
+          <div className="spacing small"></div>
+          <span className="bold-text">E-post: </span>
+
+          <a className="mail-link" href="mailto: lisbeth.sagefjord@gmail.com">
+            lisbeth.sagefjord@gmail.com
           </a>
-          <br />
-          <a className="mail-link bold-text" href="mailto: l.mettala@gmail.com">
+          <div className="spacing medium"></div>
+          <div className="bold-text" href="mailto: l.mettala@gmail.com">
             Lars Mettälä
+          </div>
+          <div className="spacing small"></div>
+
+          <span className="bold-text">E-post: </span>
+
+          <a className="mail-link" href="mailto: l.mettala@gmail.com">
+            l.mettala@gmail.com
           </a>
           <div className="spacing small"></div>
           <hr></hr>
@@ -137,14 +144,12 @@ export default function kontakt(props) {
             arbete så att medlemmarnas intressen efterföljs.
           </div>
           <br></br>
-          {/* <span className="bold-text">E-post: </span> */}
-          <a
-            className="mail-link bold-text"
-            href="mailto: georgi.lund@gmail.com"
-          >
-            George Lundqvist
+          <div className="bold-text">George Lundqvist</div>
+          <div className="spacing small"></div>
+          <span className="bold-text">E-post: </span>
+          <a className="mail-link" href="mailto: georgi.lund@gmail.com">
+            georgi.lund@gmail.com
           </a>
-          <br />
           <div className="spacing small"></div>
           <hr></hr>
           <div className="spacing small"></div>
