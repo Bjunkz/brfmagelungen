@@ -108,9 +108,10 @@ export default function kontakt(props) {
         <div className="contact-left-column bold-text">Valberedningen</div>
         <div>
           <div>
-            Valberedningens uppdrag är att ta fram förslag på styrelsemedlemmar
-            vilket kan förändras varje mandatperiod om ett år. Intresse kan
-            lämnas när som helst.
+            Valberedningens främsta uppgift är att vara rådgivare åt
+            föreningsstämman. Där tas beslut om vilka personer som ska ingå i
+            styrelse, revisorsuppdrag och valberedning. Intresse till uppdragen
+            kan lämnas när som helst under året.
           </div>
           <br></br>
           <div className="bold-text">Lisbeth Sagefjord</div>
