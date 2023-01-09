@@ -61,13 +61,13 @@ export default function foreningslokal(props) {
             </div>
             <div className="spacing micro"></div>
             <div className="standard-text">
-              <span className="bold-text">Kostnad</span> är 300 kr per tillfälle
+              <span className="bold-text">Kostnad</span> är 400 kr per tillfälle
             </div>
             <div className="spacing micro"></div>
             <div className="standard-text">
               <span className="bold-text">Deposition</span> på 500 kr betalas
               kontant och återfås efter syn av lokalen. Avdrag görs om lokalen
-              är dåligt städad, vid klagomål av grannar etc.
+              är dåligt städad, vid klagomål av grannar etc. Avbokning måste ske senast 48h innar tillträde annars debiteras medlemmen full avgift.
             </div>
             <div className="spacing micro"></div>
             <div className="standard-text">
@@ -94,7 +94,10 @@ export default function foreningslokal(props) {
             sådan nivå att grannarna inte störs.
           </li>
           <li>Bilparkering utanför lokalen är förbjuden.</li>
-          <li>Hyresgästen ansvarar för god ordning i lokalen och framför</li>
+          <li>Hyresgästen ansvarar för god ordning i lokalen och utanför</li>
+          <li>
+            Lokalen ska lämnas senast 01.00.
+          </li>
         </ul>
       </div>
       <div className="spacing double"></div>
@@ -111,6 +114,9 @@ export default function foreningslokal(props) {
           <li>
             Sopor tas med av förhyraren och slängs på avsedd plats, dvs inte i
             tidningscontainern utanför.
+          </li>
+          <li>
+            Vid behov ska även planen utanför städas.
           </li>
         </ul>
         <div className="spacing small"></div>

@@ -48,7 +48,7 @@ export default function guestApartment(props) {
       <div className="page-more-text">
         Nyckelbricka och inbetalningskort hämtas på fastighetsexpeditionen.
         <br></br>
-        Kostnad 300 kronor/dygn, max 7 dagar i följd.<br></br> Deposition 500
+        Kostnad 400 kronor/dygn, max 7 dagar i följd.<br></br> Deposition 500
         kronor som återfås efter kontroll av lägenheten. <br></br>Inflyttning kl
         14:00 uthyrningsdagen.<br></br> utflyttning kl 12:00 avflyttningsdagen.
         <br />
@@ -63,6 +63,7 @@ export default function guestApartment(props) {
         Lägenheten skall vid avresa vara väl städad och lämnas i samma skick som
         vid uthyrningstillfället. Nyckelbricka återlämnas till
         fastighetsexpeditionen.
+        OBS totalt förbud mot djur och rökning i gästlägenheten.
       </div>
     </>
   );
