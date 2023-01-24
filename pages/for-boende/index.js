@@ -33,6 +33,7 @@ const forMembers = ({ FAQS, image }) => {
             { linkText: "Föreningslokal", URL: "/for-boende/foreningslokal" },
             { linkText: "Gästlägenhet", URL: "/for-boende/gastlagenhet" },
             { linkText: "Gym och bastu", URL: "/for-boende/gym-och-bastu" },
+            { linkText: "Tvättstuga", URL: "/for-boende/tvattstuga" },
           ]}
         />
         <div className="spacing medium"></div>
