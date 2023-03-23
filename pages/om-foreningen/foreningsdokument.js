@@ -118,6 +118,18 @@ export default function foreningsdokument() {
 
             <a
               download
+              href="/dokument/redovisning/arsredovisning_brfmagelungen_2021.pdf"
+              className="underline-text flex-row-align-center"
+            >
+              <AiOutlineDownload className="download-icon" />
+              <span>Årsredovisning 2021</span>
+            </a>
+            <div className="spacing small"></div>
+            <hr />
+            <div className="spacing small"></div>
+
+            <a
+              download
               href="/dokument/redovisning/arsredovisning_brfmagelungen_2020.pdf"
               className="underline-text flex-row-align-center"
             >
