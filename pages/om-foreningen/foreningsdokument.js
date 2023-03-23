@@ -1,10 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import PageHeader from "../../components/PageHeader";
 import { AiOutlineDownload } from "react-icons/ai";
+import { createClient } from "contentful";
 
-export default function foreningsdokument() {
+
+export default function foreningsdokument(props) {
+
+
+  const sortedyearlyReports = props.protokoll.sort((a,b) => b.fields.year - a.fields.year).slice(0, 7)
+  const sortedYearlyReport = props.arsredovisning.sort((a,b) => b.fields.year - a.fields.year).slice(0, 7)
+
   return (
     <>
       <Head>
@@ -28,83 +33,25 @@ export default function foreningsdokument() {
         <div className="blanketter-och-dokument-row flex-row-space-between">
           <h3>Protokoll från föreningsstämmor</h3>
           <div className="blanketter-och-dokument-right">
-            <hr />
-            <div className="spacing small"></div>
-
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2022.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2022</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2021.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2021</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2020.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2020</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2019.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2019</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2018.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2018</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2017.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2017</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/protokoll/stammoprotokoll2016.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Föreningsstämmoprotokoll 2016</span>
-            </a>
+            {
+              sortedyearlyReports.map(yearlyReport => {
+                return (
+                  <div  key={yearlyReport.fields.year}>
+                  <hr/>
+                  <div className="spacing small"></div>
+                  <a
+                    target="_blank"
+                    href={yearlyReport.fields.protokoll.fields.file.url}
+                    className="underline-text flex-row-align-center"
+                  >
+                    <AiOutlineDownload className="download-icon" />
+                    <span>{yearlyReport.fields.titel}</span>
+                  </a>
+                  <div className="spacing small"></div>
+                  </div>
+                )
+              })
+            }
           </div>
         </div>
       </div>
@@ -113,76 +60,25 @@ export default function foreningsdokument() {
         <div className="blanketter-och-dokument-row flex-row-space-between">
           <h3>Årsredovisningar</h3>
           <div className="blanketter-och-dokument-right">
-            <hr />
-            <div className="spacing small"></div>
-
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2021.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2021</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2020.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2020</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2019.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2019</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2018.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2018</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2017.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2017</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
-            <a
-              download
-              href="/dokument/redovisning/arsredovisning_brfmagelungen_2016.pdf"
-              className="underline-text flex-row-align-center"
-            >
-              <AiOutlineDownload className="download-icon" />
-              <span>Årsredovisning 2016</span>
-            </a>
-            <div className="spacing small"></div>
-            <hr />
-            <div className="spacing small"></div>
+          {
+              sortedYearlyReport.map(yearlyReport => {
+                return (
+                  <div  key={yearlyReport.fields.year}>
+                  <hr/>
+                  <div className="spacing small"></div>
+                  <a
+                    target="_blank"
+                    href={yearlyReport.fields.rsredovisning.fields.file.url}
+                    className="underline-text flex-row-align-center"
+                  >
+                    <AiOutlineDownload className="download-icon" />
+                    <span>{yearlyReport.fields.title}</span>
+                  </a>
+                  <div className="spacing small"></div>
+                  </div>
+                )
+              })
+            }
           </div>
         </div>
       </div>
@@ -207,4 +103,21 @@ export default function foreningsdokument() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  });
+
+  const protokoll = await client.getEntries({ content_type: "freningsstmmoprotokoll" });
+  const arsredovisning = await client.getEntries({ content_type: "rsredovisning" });
+
+  return {
+    props: {
+      protokoll: protokoll.items,
+      arsredovisning: arsredovisning.items
+    },
+  };
 }
