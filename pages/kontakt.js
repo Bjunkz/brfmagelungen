@@ -70,7 +70,7 @@ export default function kontakt(props) {
           <hr></hr>
           <div className="spacing small"></div>
           {filteredStyrelse.map((styrelsemedlem, index) => {
-            return (
+           return styrelsemedlem.fields.email ?  (
               <div className="contact-styrelsemedlem" key={index}>
                 <div className="spacing medium"></div>
                 <div className="bold-text">
@@ -99,7 +99,16 @@ export default function kontakt(props) {
                 <div className="spacing medium"></div>
                 <hr></hr>
               </div>
-            );
+            ) : 
+            <div className="contact-styrelsemedlem" key={index}>
+                <div className="spacing medium"></div>
+                <div className="bold-text">
+                  {styrelsemedlem.fields.namn}
+                  {", "}
+                  {styrelsemedlem.fields.styrelseroll}
+                </div>
+                <hr></hr>
+              </div>
           })}
         </div>
       </div>
