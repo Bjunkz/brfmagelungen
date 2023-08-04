@@ -123,28 +123,28 @@ export default function kontakt(props) {
             kan lämnas när som helst under året.
           </div>
           <br></br>
-          <div className="bold-text">Lisbeth Sagefjord</div>
+          <div className="bold-text">Anette Uddqvist</div>
           <div className="spacing small"></div>
           <span className="bold-text">E-post: </span>
 
-          <a className="mail-link" href="mailto: lisbeth.sagefjord@gmail.com">
-            lisbeth.sagefjord@gmail.com
+          <a className="mail-link" href="mailto: Anette_uddqvist@hotmail.com">
+          Anette_uddqvist@hotmail.com
           </a>
           <div className="spacing medium"></div>
           <div className="bold-text" href="mailto: l.mettala@gmail.com">
-            Lars Mettälä
+            Katarina Wohlfart
           </div>
           <div className="spacing small"></div>
 
           <span className="bold-text">E-post: </span>
 
-          <a className="mail-link" href="mailto: l.mettala@gmail.com">
-            l.mettala@gmail.com
+          <a className="mail-link" href="mailto:katarina_wohlfart@hotmail.com">
+          katarina_wohlfart@hotmail.com
           </a>
           <div className="spacing small"></div>
           <span className="bold-text">tel: </span>
-          <a href={"tel: 0733-122807"} className="underline-text">
-            0733-122807
+          <a href={"tel:  0706709968"} className="underline-text">
+          0706709968
           </a>
           <hr></hr>
           <div className="spacing small"></div>
