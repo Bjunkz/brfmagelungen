@@ -72,24 +72,6 @@ export default function formsAndDocuments() {
           </div>
           <div className='spacing double'></div>
           <div className='blanketter-och-dokument-row flex-row-space-between'>
-            <h3>Renovering</h3>
-            <div className='blanketter-och-dokument-right'>
-              <span className='standard-text'>Vid omfattande renovering behövs skriftligt godkännande ifrån styrelsen. Se dokument nedan för mer information om renovering.</span>
-              <div className='spacing medium'></div>
-              <hr/>
-              <div className='spacing small'></div>
-                
-              <a download href='/dokument/blanketter/avtal-ombyggnad-lagenhet1.pdf' className='underline-text flex-row-align-center'>
-                  <AiOutlineDownload className='download-icon'/>
-                  <span>
-                    Avtal för ombyggnad av lägenhet
-                    </span>
-                </a>
-               
-            </div>
-          </div>
-          <div className='spacing double'></div>
-          <div className='blanketter-och-dokument-row flex-row-space-between'>
             <h3>Välkomstbrev</h3>
             <div className='blanketter-och-dokument-right'>
               <hr/>
