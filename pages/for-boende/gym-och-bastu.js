@@ -25,9 +25,7 @@ export default function gymAndSauna() {
           Föreningen har ett gym på Skebokvarnsvägen 298 och en bastu på
           Skebokvarnsvägen 294 (igång från gaveln).
         </span>{" "}
-        För närvarande är gymmet stängt pga fuktskada. Styrelsens förhoppning är
-        att kunna öppna gymmet till hösten 2022. Har du tips eller önskemål om
-        utrustning eller liknande vänligen{" "}
+        För närvarande är gymmet stängt pga tidigare fuktskada. I nuläget finns inga planer på att återbygga gymmet med anledning av rådande ekonomiska läge.
         <Link href="/kontakt">
           <a className="page-intro-text-link">kontakta styrelsen.</a>
         </Link>
