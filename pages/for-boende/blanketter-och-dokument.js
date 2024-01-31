@@ -77,39 +77,13 @@ export default function formsAndDocuments() {
               <hr/>
               <div className='spacing small'></div>
                 
-              <a download href='/dokument/valkomstbrev/valkommen-skannad.pdf' className='underline-text flex-row-align-center'>
+              <a download href='/dokument/valkomstbrev/valkommen-2024.pdf' className='underline-text flex-row-align-center'>
                   <AiOutlineDownload className='download-icon'/>
                   <span>
                     Välkommen
                     </span>
                 </a>
                 <div className='spacing small'></div>
-                <hr/>
-                <div className='spacing small'></div>
-              <a download href='/dokument/valkomstbrev/valkommen-andrahand-2019-05-19.pdf' className='underline-text flex-row-align-center'>
-                  <AiOutlineDownload className='download-icon'/>
-                  <span>
-                    Välkommen - Andra hand
-                    </span>
-                </a>
-                <div className='spacing small'></div>
-                <hr/>
-                <div className='spacing small'></div>
-              <a download href='/dokument/valkomstbrev/welcome-2021-07-31.pdf' className='underline-text flex-row-align-center'>
-                  <AiOutlineDownload className='download-icon'/>
-                  <span>
-                    Welcome
-                    </span>
-                </a>
-                <div className='spacing small'></div>
-                <hr/>
-                <div className='spacing small'></div>
-              <a download href='/dokument/valkomstbrev/welcome-sub-lessee-2019-05-19.pdf' className='underline-text flex-row-align-center'>
-                  <AiOutlineDownload className='download-icon'/>
-                  <span>
-                    Welcome - Sub lessee
-                    </span>
-                </a>
                 <div className='spacing small'></div>
                 <hr/>
                 <div className='spacing small'></div>
