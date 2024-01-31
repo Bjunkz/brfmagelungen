@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-boende/blanketter-och-dokument": [
+    "/for-boende/bastu": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-boende/blanketter-och-dokument.js"
+      "static/chunks/pages/for-boende/bastu.js"
+    ],
+    "/for-boende/foreningslokal": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/for-boende/foreningslokal.js"
     ],
     "/magelungsnytt": [
       "static/chunks/webpack.js",

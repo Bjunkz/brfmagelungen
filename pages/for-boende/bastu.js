@@ -7,7 +7,7 @@ export default function gymAndSauna() {
   return (
     <>
       <Head>
-        <title>Gym och Bastu</title>
+        <title>Bastu</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
@@ -18,17 +18,13 @@ export default function gymAndSauna() {
           { text: "Hem", URL: "/" },
           { text: "För boende", URL: "/for-boende" },
         ]}
-        title={"Gym och Bastu"}
+        title={"Bastu"}
       />
       <div className="page-intro-text">
         <span className="bold-text">
-          Föreningen har ett gym på Skebokvarnsvägen 298 och en bastu på
+          Föreningen har en bastu på
           Skebokvarnsvägen 294 (igång från gaveln).
         </span>{" "}
-        För närvarande är gymmet stängt pga tidigare fuktskada. I nuläget finns inga planer på att återbygga gymmet med anledning av rådande ekonomiska läge.
-        <Link href="/kontakt">
-          <a className="page-intro-text-link">kontakta styrelsen.</a>
-        </Link>
         <br />
         <span>
           {" "}
