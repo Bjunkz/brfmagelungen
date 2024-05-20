@@ -123,14 +123,18 @@ export default function kontakt(props) {
             kan lämnas när som helst under året.
           </div>
           <br></br>
-          <div className="bold-text">Anette Uddqvist</div>
+          <div className="bold-text">Isabelle Ekstrand</div>
           <div className="spacing small"></div>
-          <span className="bold-text">E-post: </span>
+          <div className="bold-text">Johan Jonsson</div>
+          <div className="spacing small"></div>
+          <div className="bold-text">Zohra Memmi</div>
+          <div className="spacing small"></div>
+          {/* <span className="bold-text">E-post: </span>
 
           <a className="mail-link" href="mailto: Anette_uddqvist@hotmail.com">
           Anette_uddqvist@hotmail.com
-          </a>
-          <div className="spacing medium"></div>
+          </a> */}
+          {/* <div className="spacing medium"></div>
           <div className="bold-text" href="mailto: l.mettala@gmail.com">
             Katarina Wohlfart
           </div>
@@ -147,8 +151,10 @@ export default function kontakt(props) {
           0706709968
           </a>
           <hr></hr>
-          <div className="spacing small"></div>
+          <div className="spacing small"></div> */}
         </div>
+      <div className="spacing medium"></div>
+
       </div>
       <div className="contact-container flex-row-space-between">
         <div className="contact-left-column bold-text">Revisor</div>
