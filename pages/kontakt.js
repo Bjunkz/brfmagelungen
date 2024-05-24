@@ -9,12 +9,19 @@ export default function kontakt(props) {
     let fa = b.fields.styrelseroll;
     let fb = a.fields.styrelseroll;
 
-    if (fa < fb) {
-      return -1;
-    }
-    if (fa > fb) {
+    if (fa == "Ordförande") {
       return 1;
+    } else if (fa == "Vice ordförande"){
+  return -2;
     }
+     else if(fa == "Sekreterare"){
+return -1
+    } else{
+      return -3
+    }
+    // if (fa > fb || fb == "Sekreterare") {
+    //   return 1;
+    // }
     return 0;
   });
 
