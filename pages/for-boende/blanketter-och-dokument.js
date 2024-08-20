@@ -89,6 +89,28 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                
             </div>
+            
+          </div>
+          <div className='spacing double'></div>
+          <div className='blanketter-och-dokument-row flex-row-space-between'>
+            <h3>Elbil</h3>
+            <div className='blanketter-och-dokument-right'>
+              <hr/>
+              <div className='spacing small'></div>
+                
+              <a download href='/dokument/snabbladdare.pdf' className='underline-text flex-row-align-center'>
+                  <AiOutlineDownload className='download-icon'/>
+                  <span>
+                    Instruktioner för snabbladdare på gaveln skebo 261-263
+                    </span>
+                </a>
+                <div className='spacing small'></div>
+                <div className='spacing small'></div>
+                <hr/>
+                <div className='spacing small'></div>
+               
+            </div>
+            
           </div>
         </div>
     </>
