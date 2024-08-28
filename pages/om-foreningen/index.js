@@ -60,6 +60,55 @@ export default function about({ image, facts }) {
         <br />
         <div className="spacing small"></div>
         Senaste stambytet skedde 2001-2003.
+        <br />
+        <div className="spacing medium"></div>
+        <b>Finns det några planerade avgiftsförändringar? </b><br/>
+        Avgiften höjdes med 8% årsskiftet 23/24, inga flera höjningar är planerade inom kvarvarande år.
+        <br />
+        <div className="spacing small"></div>
+       <b>Finns det några planerade renoveringar? Hur kommer dessa finansieras?</b><br/>
+       Inga planerade renoveringar för 2024, undersökning pågår kring reliningbehov.  Större renoveringar av bl.a. fasad och fönster är planerade inom en tioårsperiod och kommer finansieras genom lån och eget sparande.  
+        <br />
+        <div className="spacing small"></div>
+      <b>Har föreningen utfört några större renoveringar av fastigheten? Om ja, vilka och vilket årtal? (stammar, fönster, tak, fasad, el, tvättstuga).</b><br/>
+      Nej. Underhållsplan finns och uppdateras löpande.
+      <br />
+        <div className="spacing small"></div>
+        <b>Godkänner föreningen delat ägande?</b><br/>
+         Ja, lägsta ägarandel är 10%
+        <br />
+        <div className="spacing small"></div>
+        <b>Hur många hyresrätter har ni?</b><br/>
+        0
+        <br />
+        <div className="spacing small"></div>
+        <b>Äger föreningen marken? Om inte, när löper gällande tomträttsavtal ut?</b><br/>
+         Nej, det finns flera tomträttsavtal som löper ut tidigast 2028 och senast 2035.
+        <br/>
+        <div className="spacing small"></div>
+        <b>Vad ingår i månadsavgiften? </b><br/>
+        Värme, vatten och ett fåtal kanaler ingår, bredband ingår ej
+        <br />
+        <div className="spacing small"></div>
+        <b>Ingår bostadsrättstillägg i avgiften?</b> <br />
+         Nej, tecknas av innehaven själv 
+         <br />
+        <div className="spacing small"></div>
+        <b>Har föreningen källarförråd eller vindsförråd? Ingår de i avgiften?</b> <br />
+        Källarförråd i låghusen och vindsförråd i höghusen, i vissa fall ingår både och. De ingår i avgiften.
+        <br />
+        <div className="spacing small"></div>
+       <b> Vilken leverantör för kabel-TV och bredband har ni? Vilken hastighet och ingår det i månadsavgiften?</b><br/>
+        Innehaven får själv teckna avtal med önskad hastighet. Telenor är leverantör av bredband och Tele2 för tv (Tele2 kan också leverera internet, men då ej fiber).
+        <br />
+        <div className="spacing small"></div>
+        <b>Finns det garage- och/eller parkeringsplats? Finns det några lediga platser i dagsläget eller är det kö? Hur många? Avgift per månad?</b><br/>
+   
+        Föreningen har 117 parkeringsplatser och 35 garage. Det är kötid för både parkeringsplats och garage, väntetiden för parkering är cirka 2 år och garage cirka 6-8 år.
+        <br />
+        <div className="spacing small"></div>
+
+
       </div>
 
       <div className="spacing double"></div>
