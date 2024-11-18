@@ -107,11 +107,23 @@ export default function formsAndDocuments() {
                 <div className='spacing small'></div>
                 <div className='spacing small'></div>
                 <hr/>
+              <div className='spacing small'></div>
+                
+              <a download href='dokument/blanketter/anmalan-ny-anvandare-zpark.pdf' className='underline-text flex-row-align-center'>
+                  <AiOutlineDownload className='download-icon'/>
+                  <span>
+                    Blankett för anmälan till elbilsladdning via Zpark
+                    </span>
+                </a>
+                <div className='spacing small'></div>
+                <div className='spacing small'></div>
+                <hr/>
                 <div className='spacing small'></div>
                
             </div>
             
           </div>
+         
         </div>
     </>
     
