@@ -63,15 +63,14 @@ export default function about({ image, facts }) {
         <br />
         <div className="spacing medium"></div>
         <b>Finns det några planerade avgiftsförändringar? </b><br/>
-        Avgiften höjdes med 8% årsskiftet 23/24, inga flera höjningar är planerade inom kvarvarande år.
-        <br />
+        Avgiften höjdes med 7% vid årsskiftet 24/25. Inga flera höjningar är planerade under året.<br />
         <div className="spacing small"></div>
        <b>Finns det några planerade renoveringar? Hur kommer dessa finansieras?</b><br/>
        Inga planerade renoveringar för 2024, undersökning pågår kring reliningbehov.  Större renoveringar av bl.a. fasad och fönster är planerade inom en tioårsperiod och kommer finansieras genom lån och eget sparande.  
         <br />
         <div className="spacing small"></div>
       <b>Har föreningen utfört några större renoveringar av fastigheten? Om ja, vilka och vilket årtal? (stammar, fönster, tak, fasad, el, tvättstuga).</b><br/>
-      Nej. Underhållsplan finns och uppdateras löpande.
+      Stambyten 2001. Underhållsplan finns och uppdateras löpande.
       <br />
         <div className="spacing small"></div>
         <b>Godkänner föreningen delat ägande?</b><br/>
